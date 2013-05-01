@@ -240,7 +240,7 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
 
 ### See Also
 
-![]('img/see_also.png')
+![](img/see_also.png)
 
 ```html
 <!-- START "SEE ALSO" v. 1 -->
