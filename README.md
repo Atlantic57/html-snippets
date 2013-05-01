@@ -1,7 +1,29 @@
-HTML Code Snippets
-=============
+HTML Snippet Code Library
+=========================
 
-A convenient reference for Atlantic writers.
+* [Basics](#basics)
+    * [Line across page](#line-across-page)
+    * [Hard carriage return](#hard-carriage-return)
+    * [Non-breaking space](#non-breaking-space)
+    * [Registered trademark](#registered-trademark)
+    * [Page break](#page-break)
+    * [Em dash](#em-dash)
+    * [Bullet Point](#bullet-point)
+    * [Image Captions](#image-captions)
+    * [Image Credits](#image-credits)
+    * [Pull quote](#pull-quote)
+    * [Open a new window with a link (use very sparingly)](#open-a-new-window-with-a-link-use-very-sparingly)
+    * [Gray box](#gray-box)
+    * [Suppress Slideshow Thumbnails](#suppress-slideshow-thumbnails)
+* [Creating bookmarks within a document](#creating-bookmarks-within-a-document)
+    * [Sister Site Bugs](#sister-site-bugs)
+    * [Atlantic Cities partner-style](#atlantic-cities-partner-style)
+* [Related Content](#related-content)
+    * [See Also](#see-also)
+    * [Study of the Day](#study-of-the-day)
+    * [More Emporium](#more-emporium)
+    * [Related Video](#related-video)
+    * [Multiple "More on" list with thumbnails](#multiple-more-on-list-with-thumbnails)
 
 
 ## Basics
