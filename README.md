@@ -1,7 +1,7 @@
-Code Snippets
+HTML Code Snippets
 =============
 
-HTML snippets for Atlantic writers.
+A convenient reference for Atlantic writers.
 
 
 ## Basics
