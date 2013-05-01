@@ -1,36 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Atlantic Code Snippets : HTML snippets for Atlantic writers" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Atlantic Code Snippets by theatlantic</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Atlantic Code Snippets</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1>Atlantic Code Snippets</h1>
+        <p>HTML snippets for Atlantic writers</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/theatlantic/html-snippets">View on GitHub</a>
+        <p class="view"><a href="https://github.com/theatlantic/html-snippets">View the Project on GitHub <small>theatlantic/html-snippets</small></a></p>
 
-          <h1 id="project_title">Atlantic Code Snippets</h1>
-          <h2 id="project_tagline">HTML snippets for Atlantic writers</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/theatlantic/html-snippets/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/theatlantic/html-snippets/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+        <ul>
+          <li><a href="https://github.com/theatlantic/html-snippets/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/theatlantic/html-snippets/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/theatlantic/html-snippets">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
         <h1>HTML Code Snippets</h1>
 
 <p>A convenient reference for Atlantic writers.</p>
@@ -66,6 +63,189 @@
 
 <div class="highlight"><pre><span class="ni">&amp;mdash;</span>
 </pre></div>
+
+<h3>Bullet Point</h3>
+
+<pre><code>&amp;#8226;
+</code></pre>
+
+<h3>Image Captions</h3>
+
+<pre><code>&lt;!-- FULL Width Image Caption --&gt;
+&lt;p&gt;
+ &lt;img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" /&gt;
+ &lt;span class="caption" style="font-family: arial, sans-serif; font-size: 11px; "&gt;[CAPTION (CREDITS)]&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;!-- RIGHT Caption (and optional credits): --&gt;
+&lt;span style="float: right; margin: 0 0 20px 20px;"&gt;
+  &lt;img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" /&gt;
+  &lt;span class="caption" style="font-family: arial, sans-serif; text-align:left; display:block "&gt;[CAPTION (CREDITS)]&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;!-- LEFT  Caption (and optional credits): --&gt;
+&lt;span style="float: left; margin: 0 20px 20px 0;"&gt;
+  &lt;img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" /&gt;
+  &lt;span class="caption" style="font-family: arial, sans-serif; text-align:left; display:block "&gt;[CAPTION (CREDITS)]&lt;/span&gt;
+&lt;/span&gt;
+</code></pre>
+
+<h3>Image Credits</h3>
+
+<pre><code>&lt;!-- Full Width Image Credit --&gt;
+&lt;p&gt;
+  &lt;img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" /&gt;
+  &lt;span class="credit" style="font-family: arial, sans-serif; color: #242b30; font-size: 9px; text-align:right"&gt;[CREDITS]&lt;/span&gt;
+&lt;/p&gt;
+
+&lt;!-- RIGHT Credits: --&gt;
+&lt;span style="float: right; margin: 0 0 20px 20px;"&gt;
+  &lt;img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" /&gt;
+  &lt;span class="credit" style="font-family: arial, sans-serif; text-align:right; display:block "&gt;[CREDITS]&lt;/span&gt;
+&lt;/span&gt;
+
+&lt;!-- LEFT Credits: --&gt;
+&lt;span style="float: left; margin: 0 20px 20px 0;"&gt;
+  &lt;img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" /&gt;
+  &lt;span class="credit" style="font-family: arial, sans-serif; text-align:right; display:block "&gt;[CREDITS]&lt;/span&gt;
+&lt;/span&gt;
+</code></pre>
+
+<h3>Pull quote</h3>
+
+<pre><code>&lt;!-- PULL QUOTE v. 2 --&gt;
+&lt;aside class="pullquote"&gt;
+    [QUOTE GOES HERE]
+&lt;/aside&gt;
+&lt;!-- END PULL QUOTE v. 2 --&gt;
+</code></pre>
+
+<h3>Open a new window with a link (use very sparingly)</h3>
+
+<pre><code>&lt;a href="something" target="_blank"&gt;link text&lt;/a&gt;
+</code></pre>
+
+<h3>Gray box</h3>
+
+<pre><code>&lt;div class="graybox"&gt;[CONTENT GOES HERE.]&lt;/div&gt;
+</code></pre>
+
+<h3>Suppress Slideshow Thumbnails</h3>
+
+<pre><code>&lt;style type=”text/css”&gt;
+    #altGallery .galleryNav { display:none !important } 
+    #altGallery .fullScreen { display: none !important }
+    #altGallery .galleryTitle { display:none !important } 
+&lt;/style&gt;
+</code></pre>
+
+<h2>Creating bookmarks within a document</h2>
+
+<p>Put this where you want the bookmark to be:</p>
+
+<pre><code>&lt;!-- BOOKMARK --&gt;
+&lt;a name="[bookmark_name]"&gt;&lt;/a&gt;
+</code></pre>
+
+<p>Be sure to replace [bookmark_name] with whatever you want to call your bookmark. The name must be unique, consist only of alphanumeric characters (letters and numbers) and underscores.</p>
+
+<p>Then to create a link to that bookmark, use this:</p>
+
+<pre><code>&lt;!-- LINK TO BOOKMARK --&gt;
+&lt;a href="#[bookmark_name]"&gt;[link text, e.g., "go to section 1"]&lt;/a&gt;
+</code></pre>
+
+<p>Be sure to replace [bookmark_name] with the bookmark’s name, and replace [link text] with whatever you like.</p>
+
+<p>Here’s an example:</p>
+
+<pre><code>&lt;!-- BOOKMARK --&gt;
+&lt;a name="section_1"&gt;&lt;/a&gt;
+Section 1: De Dicto vel De Re
+
+Lorem ipsum dolor amet sit . . .
+
+Then somewhere else in the same document, I could link to that bookmark like this:
+
+&lt;a href="#section_1"&gt;Go to section 1&lt;/a&gt;
+</code></pre>
+
+<p>The words “Go to section 1” will be a link, and when the user clicks it, the browser will jump back to the bookmark.</p>
+
+<h3>Sister Site Bugs</h3>
+
+<h4>Atlantic Wire Bug</h4>
+
+<p><img src="http://cdn.theatlantic.com/static/front/images/wire/articlePromo.png" alt=""></p>
+
+<pre><code>&lt;!-- START "ATLANTIC WIRE" BUG FOR POSTS --&gt;
+&lt;a href="http://www.theatlanticwire.com/"
+   name="&amp;amp;lid=The-Atlantic-Wire&amp;amp;lpos=Article-Bug"&gt;
+    &lt;img src="http://cdn.theatlantic.com/static/front/images/wire/articlePromo.png"
+         style="border: 0;"&gt;
+&lt;/a&gt;
+&lt;!-- END "ATLANTIC WIRE" BUG FOR POSTS --&gt;
+</code></pre>
+
+<h4>Atlantic Cities Bug</h4>
+
+<p><img src="http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png" alt=""></p>
+
+<pre><code>&lt;!-- START "ATLANTIC CITIES" BUG FOR POSTS --&gt;
+&lt;a href="http://www.theatlanticcities.com/"
+   name="&amp;lid=The-Atlantic-Cities&amp;lpos=Article-Bug"&gt;
+    &lt;img src="http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png"
+         style="border: 0;"&gt;
+&lt;/a&gt;
+&lt;!-- END "ATLANTIC CITIES" BUG FOR POSTS --&gt;
+</code></pre>
+
+<h3>Atlantic Cities partner-style</h3>
+
+<pre><code>&lt;!-- START "CITIES PARTNER" BOX v. 1 --&gt;
+&lt;div style="margin: 10px;
+        padding: 10px;
+        width: 215px;
+        float: right;
+        text-align: left;"&gt;
+    &lt;hr/&gt;
+    &lt;div style="font-family: Arial, sans-serif;
+        font-size: 7.5pt;
+        font-weight: bold;
+        margin-left: 20px;"&gt;
+        &lt;a href="http://www.nationaljournal.com/"&gt;
+            &lt;img alt="Cities Logo"
+                 src="http://cdn.theatlanticcities.com/img/site/Cities_155x82.png"
+                 style="margin-top: 5px;
+            height: 82px;
+            width: 155px;"/&gt;
+        &lt;/a&gt;
+        &lt;br /&gt;
+        [DEK GOES HERE]
+    &lt;/div&gt;
+    &lt;ul style="text-align: left;
+        line-height: 12pt;
+        margin-left: -20px;"&gt;
+        &lt;li style="margin-bottom: 7px;"&gt;
+            &lt;a href="[ARTICLE'S URL GOES HERE]"&gt;
+                [ARTICLE'S HEADLINE GOES HERE]
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li style="margin-bottom: 7px;"&gt;
+            &lt;a href="[ARTICLE'S URL GOES HERE]"&gt;
+                [ARTICLE'S HEADLINE GOES HERE]
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li style="margin-bottom: 7px;"&gt;
+            &lt;a href="[ARTICLE'S URL GOES HERE]"&gt;
+                [ARTICLE'S HEADLINE GOES HERE]
+            &lt;/a&gt;
+        &lt;/li&gt;     
+    &lt;/ul&gt;
+    &lt;hr/&gt;
+&lt;/div&gt;
+&lt;!-- END "CITIES PARTNER" BOX v. 1 --&gt;
+</code></pre>
 
 <h2>Related Content</h2>
 
@@ -140,7 +320,7 @@
 <span class="c">&lt;!-- END "MORE ON" LIST BOX v. 3 --&gt;</span>
 </pre></div>
 
-<h3>Study of the Day, Dr. Hamblin, and "More On" lists with lead images</h3>
+<h3>Study of the Day</h3>
 
 <div class="highlight"><pre><span class="c">&lt;!-- START "MORE STUDY OF THE DAY" BOX v. 1 --&gt;</span>
 <span class="nt">&lt;aside</span> <span class="na">class=</span><span class="s">"callout"</span><span class="nt">&gt;</span>
@@ -170,6 +350,37 @@
 <span class="nt">&lt;/aside&gt;</span>
 <span class="c">&lt;!-- END "MORE STUDY OF THE DAY" BOX v. 1 --&gt;</span>
 </pre></div>
+
+<h3>More Emporium</h3>
+
+<pre><code>&lt;!-- START "MORE STUDY OF THE DAY" BOX v. 1 --&gt;
+&lt;aside class="callout"&gt;
+   &lt;hr/&gt;
+    &lt;a href="http://www.theatlantic.com/health/category/emporium/"&gt;
+        &lt;img width="242" alt="NJ logo.JPG" 
+                src="http://cdn.theatlantic.com/static/mt/assets/food/DHEMW_bug_2.png"&gt;
+    &lt;/a&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;a href="[ARTICLE'S URL GOES HERE]"&gt;
+                [ARTICLE'S HEADLINE GOES HERE]
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href="[ARTICLE'S URL GOES HERE]"&gt;
+                [ARTICLE'S HEADLINE GOES HERE]
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href="[ARTICLE'S URL GOES HERE]"&gt;
+                [ARTICLE'S HEADLINE GOES HERE]
+            &lt;/a&gt;
+        &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;hr/&gt;
+&lt;/aside&gt;
+&lt;!-- END "MORE STUDY OF THE DAY" BOX v. 1 --&gt;
+</code></pre>
 
 <h3>Related Video</h3>
 
@@ -224,17 +435,12 @@
 <span class="c">&lt;!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 --&gt;</span>
 </pre></div>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Atlantic Code Snippets maintained by <a href="https://github.com/theatlantic">theatlantic</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/theatlantic">theatlantic</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
     
-
   </body>
 </html>
