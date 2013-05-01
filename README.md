@@ -164,7 +164,7 @@ HTML snippets for Atlantic writers.
 ### Multiple "More on" list with thumbnails
 
     <!-- START MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
-    <div class="callout">
+    <aside class="callout">
       <hr>
       <h4>More on [SUBJECT]</h4>
       <ul class="with-thumbs">
@@ -191,6 +191,6 @@ HTML snippets for Atlantic writers.
 
       </ul>
       <hr>
-    </div>
+    </aside>
     <!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
 
