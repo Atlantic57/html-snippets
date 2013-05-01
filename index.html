@@ -1,51 +1,232 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Atlantic Code Snippets : HTML snippets for Atlantic writers" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Atlantic Code Snippets by theatlantic</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Atlantic Code Snippets</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
+    <div class="wrapper">
+      <header>
+        <h1>Atlantic Code Snippets</h1>
+        <p>HTML snippets for Atlantic writers</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/theatlantic/code-snippets">View on GitHub</a>
+        <p class="view"><a href="https://github.com/theatlantic/code-snippets">View the Project on GitHub <small>theatlantic/code-snippets</small></a></p>
 
-          <h1 id="project_title">Atlantic Code Snippets</h1>
-          <h2 id="project_tagline">HTML snippets for Atlantic writers</h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/theatlantic/code-snippets/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/theatlantic/code-snippets/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+        <ul>
+          <li><a href="https://github.com/theatlantic/code-snippets/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/theatlantic/code-snippets/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/theatlantic/code-snippets">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Code Snippets</h1>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>code-snippets</h1>
+<p>HTML snippets for Atlantic writers.</p>
 
-<p>HTML snippets for Atlantic writers</p>
+<h2>Basics</h2>
+
+<h3>Line across page</h3>
+
+<div class="highlight"><pre><span class="nt">&lt;hr</span> <span class="nt">/&gt;</span>
+</pre></div>
+
+<h3>Hard carriage return</h3>
+
+<div class="highlight"><pre><span class="nt">&lt;br</span> <span class="nt">/&gt;</span>
+</pre></div>
+
+<h3>Non-breaking space</h3>
+
+<div class="highlight"><pre><span class="ni">&amp;nbsp;</span>
+</pre></div>
+
+<h3>Registered trademark</h3>
+
+<div class="highlight"><pre><span class="ni">&amp;reg;</span>
+</pre></div>
+
+<h3>Page break</h3>
+
+<div class="highlight"><pre><span class="nt">&lt;pagebreak</span> <span class="nt">/&gt;</span>
+</pre></div>
+
+<h3>Em dash</h3>
+
+<div class="highlight"><pre><span class="ni">&amp;mdash;</span>
+</pre></div>
+
+<h2>Related Content</h2>
+
+<h3>See Also</h3>
+
+<pre><code>&lt;!-- START "SEE ALSO" v. 1 --&gt;
+&lt;aside class="callout"&gt;
+    &lt;hr/&gt;
+    &lt;h4&gt;See also&lt;/h4&gt;
+    &lt;h5&gt;(Optional subtitle)&lt;/h5&gt;
+    &lt;p&gt;Text goes here&lt;/p&gt;
+    &lt;hr/&gt;
+&lt;/aside&gt;
+&lt;!-- END "SEE ALSO" v. 1 --&gt;
+</code></pre>
+
+<h3>"More on" Box</h3>
+
+<pre><code>&lt;!-- START "MORE ON" SINGLE STORY BOX v. 2 --&gt;
+&lt;aside class="callout"&gt;
+    &lt;h4&gt;Related Story&lt;/h4&gt;
+    &lt;div&gt;
+        &lt;a href="[URL]"&gt;
+            &lt;img style="width: 242px; height: 157px;" src="[THUMBNAIL URL]" /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;p&gt;
+        &lt;a href="[URL]"&gt;
+            [HEADLINE]
+        &lt;/a&gt;
+    &lt;/p&gt;
+&lt;/aside&gt;
+&lt;!-- END "MORE ON" SINGLE STORY BOX v. 2 --&gt;
+</code></pre>
+
+<h3>"More on" list box, with image</h3>
+
+<pre><code>&lt;!-- START "MORE ON" LIST BOX v. 3 --&gt;
+&lt;aside class="callout"&gt;
+    &lt;hr&gt;
+    &lt;h4&gt;More From Quartz&lt;/h4&gt;
+    &lt;div&gt;
+        &lt;a href="[URL]"&gt;
+            &lt;img style="width: 242px; height: 157px;" src="[THUMBNAIL URL]" /&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="[URL]"&gt;[HEADLINE 1]&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="[URL]"&gt;[HEADLINE 2]&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="[URL]"&gt;[HEADLINE 3]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;hr&gt;
+&lt;/aside&gt;
+&lt;!-- END "MORE ON" LIST BOX v. 3 --&gt;
+</code></pre>
+
+<h3>"More on" list box, no image</h3>
+
+<pre><code>&lt;!-- START "MORE ON" LIST BOX NO IMAGE v. 3 --&gt;
+&lt;aside class="callout"&gt;
+    &lt;hr&gt;
+    &lt;h4&gt;More From Quartz&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="[URL]"&gt;[HEADLINE 1]&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="[URL]"&gt;[HEADLINE 2]&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="[URL]"&gt;[HEADLINE 3]&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;hr&gt;
+&lt;/aside&gt;
+&lt;!-- END "MORE ON" LIST BOX v. 3 --&gt;
+</code></pre>
+
+<h3>Study of the Day, Dr. Hamblin, and "More On" lists with lead images</h3>
+
+<pre><code>&lt;!-- START "MORE STUDY OF THE DAY" BOX v. 1 --&gt;
+&lt;aside class="callout"&gt;
+   &lt;hr&gt;
+    &lt;a href="http://www.theatlantic.com/health/category/studies"&gt;
+        &lt;img width="242" alt="NJ logo.JPG" 
+                src="http://cdn.theatlantic.com/static/front/images/bugs/studyoftheday.png"&gt;
+    &lt;/a&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;a href="[ARTICLE'S URL GOES HERE]"&gt;
+                [ARTICLE'S HEADLINE GOES HERE]
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href="[ARTICLE'S URL GOES HERE]"&gt;
+                [ARTICLE'S HEADLINE GOES HERE]
+            &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;a href="[ARTICLE'S URL GOES HERE]"&gt;
+                [ARTICLE'S HEADLINE GOES HERE]
+            &lt;/a&gt;
+        &lt;/li&gt;
+   &lt;/ul&gt;
+   &lt;hr&gt;
+&lt;/aside&gt;
+&lt;!-- END "MORE STUDY OF THE DAY" BOX v. 1 --&gt;
+</code></pre>
+
+<h3>Related Video</h3>
+
+<pre><code>&lt;!-- START "RELATED VIDEO" SINGLE STORY BOX v. 1 --&gt;
+&lt;aside class="callout"&gt;
+    &lt;hr/&gt;
+    &lt;h4&gt;Related Video&lt;/h4&gt;
+    &lt;a class="related-video-link" href="[ARTICLE URL]"&gt;
+        &lt;img width="242" src="[THUMBNAIL URL]" /&gt;
+   &lt;/a&gt;
+    &lt;p&gt;
+        &lt;a href="[ARTICLE URL]"&gt;
+            [HEADLINE]
+        &lt;/a&gt;
+    &lt;/p&gt;
+    &lt;hr/&gt;
+&lt;/aside&gt;
+&lt;!-- END "RELATED VIDEO" SINGLE STORY BOX v. 1 --&gt;
+</code></pre>
+
+<h3>Multiple "More on" list with thumbnails</h3>
+
+<pre><code>&lt;!-- START MULTI-THUMB "MORE ON" WITH IMAGES v. 3 --&gt;
+&lt;div class="callout"&gt;
+  &lt;hr&gt;
+  &lt;h4&gt;More on [SUBJECT]&lt;/h4&gt;
+  &lt;ul class="with-thumbs"&gt;
+    &lt;li&gt;
+      &lt;a href="[ARTICLE URL]"&gt;
+        &lt;img width="90" src="[THUMBNAIL URL]"&gt;
+        [ARTICLE TITLE]
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;a href="[ARTICLE URL]"&gt;
+        &lt;img width="90" src="[THUMBNAIL URL]"&gt;
+        [ARTICLE TITLE]
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+    &lt;li&gt;
+      &lt;a href="[ARTICLE URL]"&gt;
+        &lt;img width="90" src="[THUMBNAIL URL]"&gt;
+        [ARTICLE TITLE]
+      &lt;/a&gt;
+    &lt;/li&gt;
+
+  &lt;/ul&gt;
+  &lt;hr&gt;
+&lt;/div&gt;
+&lt;!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 --&gt;
+</code></pre>
       </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Atlantic Code Snippets maintained by <a href="https://github.com/theatlantic">theatlantic</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/theatlantic">theatlantic</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
+    <script src="javascripts/scale.fix.js"></script>
     
-
   </body>
 </html>
