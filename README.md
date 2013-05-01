@@ -240,13 +240,15 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
 
 ### See Also
 
+![]('img/see_also.png')
+
 ```html
 <!-- START "SEE ALSO" v. 1 -->
 <aside class="callout">
     <hr/>
     <h4>See also</h4>
     <h5>(Optional subtitle)</h5>
-    <p>Text goes here</p>
+    <p><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></p>
     <hr/>
 </aside>
 <!-- END "SEE ALSO" v. 1 -->
