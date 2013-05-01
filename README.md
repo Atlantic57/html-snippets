@@ -66,7 +66,7 @@ A convenient reference for Atlantic writers.
     <h4>Related Story</h4>
     <div>
         <a href="[URL]">
-            <img style="width: 242px; height: 157px;" src="[THUMBNAIL URL]" />
+            <img width="242" src="[THUMBNAIL URL]" />
         </a>
     </div>
     <p>
@@ -87,7 +87,7 @@ A convenient reference for Atlantic writers.
     <h4>More From Quartz</h4>
     <div>
         <a href="[URL]">
-            <img style="width: 242px; height: 157px;" src="[THUMBNAIL URL]" />
+            <img width="242" src="[THUMBNAIL URL]" />
         </a>
     </div>
 
