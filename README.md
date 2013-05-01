@@ -42,6 +42,181 @@ A convenient reference for Atlantic writers.
 &mdash;
 ```
 
+### Bullet Point
+```
+&#8226;
+```
+
+### Image Captions
+
+    <!-- FULL Width Image Caption -->
+    <p>
+     <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
+     <span class="caption" style="font-family: arial, sans-serif; font-size: 11px; ">[CAPTION (CREDITS)]</span>
+    </p>
+     
+    <!-- RIGHT Caption (and optional credits): -->
+    <span style="float: right; margin: 0 0 20px 20px;">
+      <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
+      <span class="caption" style="font-family: arial, sans-serif; text-align:left; display:block ">[CAPTION (CREDITS)]</span>
+    </span>
+     
+    <!-- LEFT  Caption (and optional credits): -->
+    <span style="float: left; margin: 0 20px 20px 0;">
+      <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
+      <span class="caption" style="font-family: arial, sans-serif; text-align:left; display:block ">[CAPTION (CREDITS)]</span>
+    </span>
+
+
+ 
+### Image Credits
+
+    <!-- Full Width Image Credit -->
+    <p>
+      <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
+      <span class="credit" style="font-family: arial, sans-serif; color: #242b30; font-size: 9px; text-align:right">[CREDITS]</span>
+    </p>
+
+    <!-- RIGHT Credits: -->
+    <span style="float: right; margin: 0 0 20px 20px;">
+      <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
+      <span class="credit" style="font-family: arial, sans-serif; text-align:right; display:block ">[CREDITS]</span>
+    </span>
+     
+    <!-- LEFT Credits: -->
+    <span style="float: left; margin: 0 20px 20px 0;">
+      <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
+      <span class="credit" style="font-family: arial, sans-serif; text-align:right; display:block ">[CREDITS]</span>
+    </span>
+
+
+### Pull quote
+
+    <!-- PULL QUOTE v. 2 -->
+    <aside class="pullquote">
+        [QUOTE GOES HERE]
+    </aside>
+    <!-- END PULL QUOTE v. 2 -->
+
+### Open a new window with a link (use very sparingly)
+    
+    <a href="something" target="_blank">link text</a>
+
+### Gray box
+
+    <div class="graybox">[CONTENT GOES HERE.]</div>
+
+### Suppress Slideshow Thumbnails
+
+    <style type=”text/css”>
+        #altGallery .galleryNav { display:none !important } 
+        #altGallery .fullScreen { display: none !important }
+        #altGallery .galleryTitle { display:none !important } 
+    </style>
+
+## Creating bookmarks within a document
+
+Put this where you want the bookmark to be:
+
+    <!-- BOOKMARK -->
+    <a name="[bookmark_name]"></a>
+
+Be sure to replace [bookmark_name] with whatever you want to call your bookmark. The name must be unique, consist only of alphanumeric characters (letters and numbers) and underscores.
+
+Then to create a link to that bookmark, use this:
+
+    <!-- LINK TO BOOKMARK -->
+    <a href="#[bookmark_name]">[link text, e.g., "go to section 1"]</a>
+
+Be sure to replace [bookmark_name] with the bookmark’s name, and replace [link text] with whatever you like.
+
+Here’s an example:
+
+    <!-- BOOKMARK -->
+    <a name="section_1"></a>
+    Section 1: De Dicto vel De Re
+
+    Lorem ipsum dolor amet sit . . .
+
+    Then somewhere else in the same document, I could link to that bookmark like this:
+
+    <a href="#section_1">Go to section 1</a>
+
+The words “Go to section 1” will be a link, and when the user clicks it, the browser will jump back to the bookmark.
+
+### Sister Site Bugs
+
+#### Atlantic Wire Bug
+![](http://cdn.theatlantic.com/static/front/images/wire/articlePromo.png)
+
+    <!-- START "ATLANTIC WIRE" BUG FOR POSTS -->
+    <a href="http://www.theatlanticwire.com/"
+       name="&amp;lid=The-Atlantic-Wire&amp;lpos=Article-Bug">
+        <img src="http://cdn.theatlantic.com/static/front/images/wire/articlePromo.png"
+             style="border: 0;">
+    </a>
+    <!-- END "ATLANTIC WIRE" BUG FOR POSTS -->
+
+
+#### Atlantic Cities Bug
+![](http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png)
+
+    <!-- START "ATLANTIC CITIES" BUG FOR POSTS -->
+    <a href="http://www.theatlanticcities.com/"
+       name="&lid=The-Atlantic-Cities&lpos=Article-Bug">
+        <img src="http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png"
+             style="border: 0;">
+    </a>
+    <!-- END "ATLANTIC CITIES" BUG FOR POSTS -->
+
+
+### Atlantic Cities partner-style
+
+    <!-- START "CITIES PARTNER" BOX v. 1 -->
+    <div style="margin: 10px;
+            padding: 10px;
+            width: 215px;
+            float: right;
+            text-align: left;">
+        <hr/>
+        <div style="font-family: Arial, sans-serif;
+            font-size: 7.5pt;
+            font-weight: bold;
+            margin-left: 20px;">
+            <a href="http://www.nationaljournal.com/">
+                <img alt="Cities Logo"
+                     src="http://cdn.theatlanticcities.com/img/site/Cities_155x82.png"
+                     style="margin-top: 5px;
+                height: 82px;
+                width: 155px;"/>
+            </a>
+            <br />
+            [DEK GOES HERE]
+        </div>
+        <ul style="text-align: left;
+            line-height: 12pt;
+            margin-left: -20px;">
+            <li style="margin-bottom: 7px;">
+                <a href="[ARTICLE'S URL GOES HERE]">
+                    [ARTICLE'S HEADLINE GOES HERE]
+                </a>
+            </li>
+            <li style="margin-bottom: 7px;">
+                <a href="[ARTICLE'S URL GOES HERE]">
+                    [ARTICLE'S HEADLINE GOES HERE]
+                </a>
+            </li>
+            <li style="margin-bottom: 7px;">
+                <a href="[ARTICLE'S URL GOES HERE]">
+                    [ARTICLE'S HEADLINE GOES HERE]
+                </a>
+            </li>     
+        </ul>
+        <hr/>
+    </div>
+    <!-- END "CITIES PARTNER" BOX v. 1 -->
+
+
 ## Related Content
 
 ### See Also
@@ -119,7 +294,7 @@ A convenient reference for Atlantic writers.
 <!-- END "MORE ON" LIST BOX v. 3 -->
 ```
 
-### Study of the Day, Dr. Hamblin, and "More On" lists with lead images
+### Study of the Day
 
 ```html
 <!-- START "MORE STUDY OF THE DAY" BOX v. 1 -->
@@ -150,6 +325,37 @@ A convenient reference for Atlantic writers.
 </aside>
 <!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
 ```
+
+### More Emporium
+
+    <!-- START "MORE STUDY OF THE DAY" BOX v. 1 -->
+    <aside class="callout">
+       <hr/>
+        <a href="http://www.theatlantic.com/health/category/emporium/">
+            <img width="242" alt="NJ logo.JPG" 
+                    src="http://cdn.theatlantic.com/static/mt/assets/food/DHEMW_bug_2.png">
+        </a>
+        <ul>
+            <li>
+                <a href="[ARTICLE'S URL GOES HERE]">
+                    [ARTICLE'S HEADLINE GOES HERE]
+                </a>
+            </li>
+            <li>
+                <a href="[ARTICLE'S URL GOES HERE]">
+                    [ARTICLE'S HEADLINE GOES HERE]
+                </a>
+            </li>
+            <li>
+                <a href="[ARTICLE'S URL GOES HERE]">
+                    [ARTICLE'S HEADLINE GOES HERE]
+                </a>
+            </li>
+       </ul>
+       <hr/>
+    </aside>
+    <!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
+
 
 ### Related Video
 
