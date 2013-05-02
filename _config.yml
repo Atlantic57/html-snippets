@@ -1,5 +1,2 @@
 pygments: true
-markdown: redcarpet
-
-redcarpet:
-    extensions: ['with_toc_data']
+markdown: maruku

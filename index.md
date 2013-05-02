@@ -4,53 +4,54 @@ layout: main
 
 # Table of Contents
 * Hold for a table of contents.
+{:toc}
 
 # Basics
 
 ## Line across page
 
-```html
+{% highlight html %}
 <hr />
-```
+{% endhighlight %}
 
 ## Hard carriage return
 
-```html
+{% highlight html %}
 <br />
-```
+{% endhighlight %}
 
 ## Non-breaking space
 
-```html
+{% highlight html %}
 &nbsp;
-```
+{% endhighlight %}
 
 ## Registered trademark
 
-```html
+{% highlight html %}
 &reg;
-```
+{% endhighlight %}
 
 ## Page break
 
-```html
+{% highlight html %}
 <pagebreak />
-```
+{% endhighlight %}
 
 ## Em dash
 
-```html
+{% highlight html %}
 &mdash;
-```
+{% endhighlight %}
 
 ## Bullet Point
-```html
+{% highlight html %}
 &#8226;
-```
+{% endhighlight %}
 
 ## Image Captions
 
-```html
+{% highlight html %}
 <!-- FULL Width Image Caption -->
 <p>
  <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
@@ -68,12 +69,12 @@ layout: main
   <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
   <span class="caption" style="font-family: arial, sans-serif; text-align:left; display:block ">[CAPTION (CREDITS)]</span>
 </span>
-```
+{% endhighlight %}
 
 
 ## Image Credits
 
-```html
+{% highlight html %}
 <!-- Full Width Image Credit -->
 <p>
   <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
@@ -91,63 +92,63 @@ layout: main
   <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
   <span class="credit" style="font-family: arial, sans-serif; text-align:right; display:block ">[CREDITS]</span>
 </span>
-```
+{% endhighlight %}
 
 ## Pull quote
 
-```html
+{% highlight html %}
 <!-- PULL QUOTE v. 2 -->
 <aside class="pullquote">
     [QUOTE GOES HERE]
 </aside>
 <!-- END PULL QUOTE v. 2 -->
-```
+{% endhighlight %}
 
 ## Open a new window with a link (use very sparingly)
    
-```html 
+{% highlight html %} 
 <a href="something" target="_blank">link text</a>
-```
+{% endhighlight %}
 
 ## Gray box
 
-```html
+{% highlight html %}
 <div class="graybox">[CONTENT GOES HERE.]</div>
-```
+{% endhighlight %}
 
 ## Suppress Slideshow Thumbnails
 
-```html
+{% highlight html %}
 <style type=”text/css”>
     #altGallery .galleryNav { display:none !important } 
     #altGallery .fullScreen { display: none !important }
     #altGallery .galleryTitle { display:none !important } 
 </style>
-```
+{% endhighlight %}
 
 ## Creating bookmarks within a document
 
 Put this where you want the bookmark to be:
 
-```html
+{% highlight html %}
 <!-- BOOKMARK -->
 <a name="[bookmark_name]"></a>
-```
+{% endhighlight %}
 
 Be sure to replace \[bookmark_name\] with whatever you want to call your bookmark. The name must be unique, consist only of alphanumeric characters (letters and numbers) and underscores.
 
 Then to create a link to that bookmark, use this:
 
-```html
+{% highlight html %}
 <!-- LINK TO BOOKMARK -->
 <a href="#[bookmark_name]">[link text, e.g., "go to section 1"]</a>
-```
+{% endhighlight %}
 
 Be sure to replace \[bookmark_name\] with the bookmark’s name, and replace \[link text\] with whatever you like.
 
 Here’s an example:
 
-```html
+{% highlight html %}
 <!-- BOOKMARK -->
 <a name="section_1"></a>
 Section 1: De Dicto vel De Re
@@ -157,7 +158,7 @@ Lorem ipsum dolor amet sit . . .
 Then somewhere else in the same document, I could link to that bookmark like this:
 
 <a href="#section_1">Go to section 1</a>
-```
+{% endhighlight %}
 
 The words “Go to section 1” will be a link, and when the user clicks it, the browser will jump back to the bookmark.
 
@@ -166,7 +167,7 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
 ### Atlantic Wire Bug
 ![](http://cdn.theatlantic.com/static/front/images/wire/articlePromo.png)
 
-```html
+{% highlight html %}
 <!-- START "ATLANTIC WIRE" BUG FOR POSTS -->
 <a href="http://www.theatlanticwire.com/"
    name="&amp;lid=The-Atlantic-Wire&amp;lpos=Article-Bug">
@@ -174,12 +175,12 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
          style="border: 0;">
 </a>
 <!-- END "ATLANTIC WIRE" BUG FOR POSTS -->
-```
+{% endhighlight %}
 
 ### Atlantic Cities Bug
 ![](http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png)
 
-```html
+{% highlight html %}
 <!-- START "ATLANTIC CITIES" BUG FOR POSTS -->
 <a href="http://www.theatlanticcities.com/"
    name="&lid=The-Atlantic-Cities&lpos=Article-Bug">
@@ -187,11 +188,11 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
          style="border: 0;">
 </a>
 <!-- END "ATLANTIC CITIES" BUG FOR POSTS -->
-```
+{% endhighlight %}
 
 ## Atlantic Cities partner-style
 
-```html
+{% highlight html %}
 <!-- START "CITIES PARTNER" BOX v. 1 -->
 <div style="margin: 10px;
         padding: 10px;
@@ -235,7 +236,7 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
     <hr/>
 </div>
 <!-- END "CITIES PARTNER" BOX v. 1 -->
-```
+{% endhighlight %}
 
 # Related Content
 
@@ -243,7 +244,7 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/see_also.png)
 
-```html
+{% highlight html %}
 <!-- START "SEE ALSO" v. 1 -->
 <aside class="callout">
     <hr/>
@@ -253,13 +254,13 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
     <hr/>
 </aside>
 <!-- END "SEE ALSO" v. 1 -->
-```
+{% endhighlight %}
 
 ## "More on" Box
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/related_story.png)
 
-```html
+{% highlight html %}
 <!-- START "MORE ON" SINGLE STORY BOX v. 2 -->
 <aside class="callout">
     <h4>Related Story</h4>
@@ -275,11 +276,11 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
     </p>
 </aside>
 <!-- END "MORE ON" SINGLE STORY BOX v. 2 -->
-```
+{% endhighlight %}
 
 ## "More on" list box, with image
 
-```html
+{% highlight html %}
 <!-- START "MORE ON" LIST BOX v. 3 -->
 <aside class="callout">
     <hr/>
@@ -299,13 +300,13 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
     <hr/>
 </aside>
 <!-- END "MORE ON" LIST BOX v. 3 -->
-```
+{% endhighlight %}
 
 ## "More on" list box, no image
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/more_on_list.png)
 
-```html
+{% highlight html %}
 <!-- START "MORE ON" LIST BOX NO IMAGE v. 3 -->
 <aside class="callout">
     <hr/>
@@ -318,13 +319,13 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
     <hr/>
 </aside>
 <!-- END "MORE ON" LIST BOX v. 3 -->
-```
+{% endhighlight %}
 
 ## Study of the Day
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/study.png)
 
-```html
+{% highlight html %}
 <!-- START "MORE STUDY OF THE DAY" BOX v. 1 -->
 <aside class="callout">
    <hr/>
@@ -352,13 +353,13 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
    <hr/>
 </aside>
 <!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
-```
+{% endhighlight %}
 
 ## More Emporium
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/emporium.png)
 
-```html
+{% highlight html %}
 <!-- START "MORE STUDY OF THE DAY" BOX v. 1 -->
 <aside class="callout">
    <hr/>
@@ -386,13 +387,13 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
    <hr/>
 </aside>
 <!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
-```
+{% endhighlight %}
 
 ## Related Video
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/video.png)
 
-```html
+{% highlight html %}
 <!-- START "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
 <aside class="callout">
     <hr/>
@@ -408,11 +409,11 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
     <hr/>
 </aside>
 <!-- END "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
-```
+{% endhighlight %}
 
 ## Multiple "More on" list with thumbnails
 
-```html
+{% highlight html %}
 <!-- START MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
 <aside class="callout">
   <hr/>
@@ -443,4 +444,4 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
   <hr/>
 </aside>
 <!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
-```
+{% endhighlight %}
