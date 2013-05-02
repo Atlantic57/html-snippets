@@ -96,7 +96,7 @@ layout: main
 {% highlight html %}
 <figure>
     <img src="[IMAGE URL]" alt="[OPTIONAL IMAGE DESCRIPTION]" />
-    <figcaption>CAPTION (OPTIONAL CREDITS)</div>
+    <figcaption>CAPTION (OPTIONAL CREDITS)</figcaption>
 </figure>
 {% endhighlight %}
 
@@ -386,47 +386,25 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 ### Atlantic Cities partner box
 
 {% highlight html %}
-<!-- START "CITIES PARTNER" BOX v. 1 -->
-<div style="margin: 10px;
-        padding: 10px;
-        width: 215px;
-        float: right;
-        text-align: left;">
+<!-- START "CITIES PARTNER" BOX v. 2 -->
+<aside class="callout">
     <hr/>
-    <div style="font-family: Arial, sans-serif;
-        font-size: 7.5pt;
-        font-weight: bold;
-        margin-left: 20px;">
-        <a href="http://www.nationaljournal.com/">
-            <img alt="Cities Logo"
-                 src="http://cdn.theatlanticcities.com/img/site/Cities_155x82.png"
-                 style="margin-top: 5px;
-            height: 82px;
-            width: 155px;"/>
-        </a>
-        <br />
-        [DEK GOES HERE]
-    </div>
-    <ul style="text-align: left;
-        line-height: 12pt;
-        margin-left: -20px;">
-        <li style="margin-bottom: 7px;">
-            <a href="[ARTICLE URL]">
-                [ARTICLE HEADLINE]
-            </a>
+    <a href="http://www.theatlanticcities.com/">
+        <img width="155" alt="The Atlantic Cities"
+             src="http://cdn.theatlanticcities.com/img/site/Cities_155x82.png"/>
+    </a>
+    <ul>
+        <li>
+            <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
         </li>
-        <li style="margin-bottom: 7px;">
-            <a href="[ARTICLE URL]">
-                [ARTICLE HEADLINE]
-            </a>
+        <li>
+            <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
         </li>
-        <li style="margin-bottom: 7px;">
-            <a href="[ARTICLE URL]">
-                [ARTICLE HEADLINE]
-            </a>
+        <li>
+            <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
         </li>
     </ul>
     <hr/>
-</div>
-<!-- END "CITIES PARTNER" BOX v. 1 -->
+</aside>
+<!-- END "CITIES PARTNER" BOX v. 2 -->
 {% endhighlight %}
