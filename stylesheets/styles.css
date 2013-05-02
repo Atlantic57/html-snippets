@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
 }
@@ -26,9 +24,12 @@ h1 {
 
 h2 {
   color:#393939;
+  border-bottom: 1px solid #ccc;
+  padding: 0.25em 0;
 }
 
 h3, h4, h5, h6 {
+  font-weight: 500;
   color:#494949;
 }
 
@@ -233,4 +234,8 @@ hr {
     font-size:12pt;
     color:#444;
   }
+}
+
+.wrapper > header {
+    display: none;
 }
