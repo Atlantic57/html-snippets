@@ -56,7 +56,7 @@ layout: main
             {% endhighlight %}
         </td>
     </tr>
-<table>
+</table>
 
 # Basics
 
