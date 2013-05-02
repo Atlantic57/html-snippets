@@ -2,34 +2,68 @@
 layout: main
 ---
 
-# Table of Contents
-* Hold for a table of contents.
+# HTML Snippet Code Library
+
+## Contents
+
+* TOC
 {:toc}
+
+# Typography
+
+<table>
+    <tr>
+        <th>Character</th>
+        <th>HTML</th>
+    </tr>
+    <tr>
+        <td>Line break</td>
+        <td>
+            {% highlight html %}
+            <br/>
+            {% endhighlight %}
+        </td>
+    </tr>
+    <tr>
+        <td>Non-breaking space</td>
+        <td>
+            {% highlight html %}
+            &nbsp;
+            {% endhighlight %}
+        </td>
+    </tr>
+    <tr>
+        <td>Em dash</td>
+        <td>
+            {% highlight html %}
+            &mdash;
+            {% endhighlight %}
+        </td>
+    </tr>
+    <tr>
+        <td>En dash</td>
+        <td>
+            {% highlight html %}
+            &ndash;
+            {% endhighlight %}
+        </td>
+    </tr>
+    <tr>
+        <td>Bullet</td>
+        <td>
+            {% highlight html %}
+            &bull;
+            {% endhighlight %}
+        </td>
+    </tr>
+<table>
 
 # Basics
 
-## Line across page
+## Horizontal rule
 
 {% highlight html %}
 <hr />
-{% endhighlight %}
-
-## Hard carriage return
-
-{% highlight html %}
-<br />
-{% endhighlight %}
-
-## Non-breaking space
-
-{% highlight html %}
-&nbsp;
-{% endhighlight %}
-
-## Registered trademark
-
-{% highlight html %}
-&reg;
 {% endhighlight %}
 
 ## Page break
@@ -38,70 +72,23 @@ layout: main
 <pagebreak />
 {% endhighlight %}
 
-## Em dash
-
-{% highlight html %}
-&mdash;
-{% endhighlight %}
-
-## Bullet Point
-{% highlight html %}
-&#8226;
-{% endhighlight %}
-
-## Image Captions
-
-{% highlight html %}
-<!-- FULL Width Image Caption -->
-<p>
- <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
- <span class="caption" style="font-family: arial, sans-serif; font-size: 11px; ">[CAPTION (CREDITS)]</span>
-</p>
- 
-<!-- RIGHT Caption (and optional credits): -->
-<span style="float: right; margin: 0 0 20px 20px;">
-  <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
-  <span class="caption" style="font-family: arial, sans-serif; text-align:left; display:block ">[CAPTION (CREDITS)]</span>
-</span>
- 
-<!-- LEFT  Caption (and optional credits): -->
-<span style="float: left; margin: 0 20px 20px 0;">
-  <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
-  <span class="caption" style="font-family: arial, sans-serif; text-align:left; display:block ">[CAPTION (CREDITS)]</span>
-</span>
-{% endhighlight %}
-
-
-## Image Credits
-
-{% highlight html %}
-<!-- Full Width Image Credit -->
-<p>
-  <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
-  <span class="credit" style="font-family: arial, sans-serif; color: #242b30; font-size: 9px; text-align:right">[CREDITS]</span>
-</p>
-
-<!-- RIGHT Credits: -->
-<span style="float: right; margin: 0 0 20px 20px;">
-  <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
-  <span class="credit" style="font-family: arial, sans-serif; text-align:right; display:block ">[CREDITS]</span>
-</span>
- 
-<!-- LEFT Credits: -->
-<span style="float: left; margin: 0 20px 20px 0;">
-  <img src="[Photo-URL-Here]" alt="[optional image description]" class="mt-image-none" />
-  <span class="credit" style="font-family: arial, sans-serif; text-align:right; display:block ">[CREDITS]</span>
-</span>
-{% endhighlight %}
-
 ## Pull quote
 
 {% highlight html %}
-<!-- PULL QUOTE v. 2 -->
-<aside class="pullquote">
-    [QUOTE GOES HERE]
-</aside>
-<!-- END PULL QUOTE v. 2 -->
+    <!-- PULL QUOTE v. 2 -->
+    <aside class="pullquote">
+        [QUOTE]
+    </aside>
+    <!-- END PULL QUOTE v. 2 -->
+{% endhighlight %}
+
+## Captions or credits
+
+{% highlight html %}
+<figure>
+ <img src="[IMAGE URL]" alt="[OPTIONAL IMAGE DESCRIPTION]" />
+ <figcaption>CAPTION (OPTIONAL CREDITS)</div>
+</figure>
 {% endhighlight %}
 
 ## Open a new window with a link (use very sparingly)
@@ -110,23 +97,17 @@ layout: main
 <a href="something" target="_blank">link text</a>
 {% endhighlight %}
 
-## Gray box
-
-{% highlight html %}
-<div class="graybox">[CONTENT GOES HERE.]</div>
-{% endhighlight %}
-
 ## Suppress Slideshow Thumbnails
 
 {% highlight html %}
-<style type=”text/css”>
+<style type="text/css">
     #altGallery .galleryNav { display:none !important } 
     #altGallery .fullScreen { display: none !important }
     #altGallery .galleryTitle { display:none !important } 
 </style>
 {% endhighlight %}
 
-## Creating bookmarks within a document
+# Creating bookmarks within a document
 
 Put this where you want the bookmark to be:
 
@@ -135,7 +116,7 @@ Put this where you want the bookmark to be:
 <a name="[bookmark_name]"></a>
 {% endhighlight %}
 
-Be sure to replace \[bookmark_name\] with whatever you want to call your bookmark. The name must be unique, consist only of alphanumeric characters (letters and numbers) and underscores.
+Be sure to replace [bookmark_name] with whatever you want to call your bookmark. The name must be unique, consist only of alphanumeric characters (letters and numbers) and underscores.
 
 Then to create a link to that bookmark, use this:
 
@@ -144,7 +125,7 @@ Then to create a link to that bookmark, use this:
 <a href="#[bookmark_name]">[link text, e.g., "go to section 1"]</a>
 {% endhighlight %}
 
-Be sure to replace \[bookmark_name\] with the bookmark’s name, and replace \[link text\] with whatever you like.
+Be sure to replace [bookmark_name] with the bookmark’s name, and replace [link text] with whatever you like.
 
 Here’s an example:
 
@@ -160,11 +141,12 @@ Then somewhere else in the same document, I could link to that bookmark like thi
 <a href="#section_1">Go to section 1</a>
 {% endhighlight %}
 
-The words “Go to section 1” will be a link, and when the user clicks it, the browser will jump back to the bookmark.
+The words “Go to section 1" will be a link, and when the user clicks it, the browser will jump back to the bookmark.
 
-## Sister Site Bugs
+# Promotional Bugs
 
-### Atlantic Wire Bug
+## Atlantic Wire Bug
+
 ![](http://cdn.theatlantic.com/static/front/images/wire/articlePromo.png)
 
 {% highlight html %}
@@ -177,13 +159,14 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
 <!-- END "ATLANTIC WIRE" BUG FOR POSTS -->
 {% endhighlight %}
 
-### Atlantic Cities Bug
+## Atlantic Cities Bug
+
 ![](http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png)
 
 {% highlight html %}
 <!-- START "ATLANTIC CITIES" BUG FOR POSTS -->
 <a href="http://www.theatlanticcities.com/"
-   name="&lid=The-Atlantic-Cities&lpos=Article-Bug">
+   name="&amp;lid=The-Atlantic-Cities&amp;lpos=Article-Bug">
     <img src="http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png"
          style="border: 0;">
 </a>
