@@ -9,7 +9,7 @@ layout: main
 * TOC
 {:toc}
 
-# Typography
+## Typography
 
 <table>
     <tr>
@@ -19,60 +19,68 @@ layout: main
     <tr>
         <td>Line break</td>
         <td>
-            {% highlight html %}
+
+{% highlight html %}
             <br/>
-            {% endhighlight %}
+{% endhighlight %}
+
         </td>
     </tr>
     <tr>
         <td>Non-breaking space</td>
         <td>
-            {% highlight html %}
+
+{% highlight html %}
             &nbsp;
-            {% endhighlight %}
+{% endhighlight %}
+
         </td>
     </tr>
     <tr>
         <td>Em dash</td>
         <td>
-            {% highlight html %}
+
+{% highlight html %}
             &mdash;
-            {% endhighlight %}
+{% endhighlight %}
         </td>
     </tr>
     <tr>
         <td>En dash</td>
         <td>
-            {% highlight html %}
+
+{% highlight html %}
             &ndash;
-            {% endhighlight %}
+{% endhighlight %}
         </td>
     </tr>
     <tr>
         <td>Bullet</td>
         <td>
-            {% highlight html %}
+
+{% highlight html %}
             &bull;
-            {% endhighlight %}
+{% endhighlight %}
+
         </td>
     </tr>
 </table>
 
-# Basics
+## Basics
 
-## Horizontal rule
+### Horizontal rule
 
 {% highlight html %}
 <hr />
 {% endhighlight %}
 
-## Page break
+### Page break
 
 {% highlight html %}
 <pagebreak />
 {% endhighlight %}
 
-## Pull quote
+### Pull quote
 
 {% highlight html %}
     <!-- PULL QUOTE v. 2 -->
@@ -82,22 +90,22 @@ layout: main
     <!-- END PULL QUOTE v. 2 -->
 {% endhighlight %}
 
-## Captions or credits
+### Captions or credits
 
 {% highlight html %}
 <figure>
- <img src="[IMAGE URL]" alt="[OPTIONAL IMAGE DESCRIPTION]" />
- <figcaption>CAPTION (OPTIONAL CREDITS)</div>
+    <img src="[IMAGE URL]" alt="[OPTIONAL IMAGE DESCRIPTION]" />
+    <figcaption>CAPTION (OPTIONAL CREDITS)</div>
 </figure>
 {% endhighlight %}
 
-## Open a new window with a link (use very sparingly)
-   
+### Open a new window with a link (use very sparingly)
+
 {% highlight html %} 
 <a href="something" target="_blank">link text</a>
 {% endhighlight %}
 
-## Suppress Slideshow Thumbnails
+### Suppress Slideshow Thumbnails
 
 {% highlight html %}
 <style type="text/css">
@@ -107,7 +115,7 @@ layout: main
 </style>
 {% endhighlight %}
 
-# Creating bookmarks within a document
+## Creating bookmarks within a document
 
 Put this where you want the bookmark to be:
 
@@ -141,11 +149,11 @@ Then somewhere else in the same document, I could link to that bookmark like thi
 <a href="#section_1">Go to section 1</a>
 {% endhighlight %}
 
-The words “Go to section 1" will be a link, and when the user clicks it, the browser will jump back to the bookmark.
+The words "Go to section 1" will be a link, and when the user clicks it, the browser will jump back to the bookmark.
 
-# Promotional Bugs
+## Promotional Bugs
 
-## Atlantic Wire Bug
+### Atlantic Wire Bug
 
 ![](http://cdn.theatlantic.com/static/front/images/wire/articlePromo.png)
 
@@ -159,7 +167,7 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "ATLANTIC WIRE" BUG FOR POSTS -->
 {% endhighlight %}
 
-## Atlantic Cities Bug
+### Atlantic Cities Bug
 
 ![](http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png)
 
@@ -173,7 +181,7 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "ATLANTIC CITIES" BUG FOR POSTS -->
 {% endhighlight %}
 
-## Atlantic Cities partner-style
+### Atlantic Cities partner-style
 
 {% highlight html %}
 <!-- START "CITIES PARTNER" BOX v. 1 -->
@@ -221,9 +229,9 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "CITIES PARTNER" BOX v. 1 -->
 {% endhighlight %}
 
-# Related Content
+## Related Content
 
-## See Also
+### See Also
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/see_also.png)
 
@@ -239,7 +247,7 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "SEE ALSO" v. 1 -->
 {% endhighlight %}
 
-## "More on" Box
+### "More on" Box
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/related_story.png)
 
@@ -261,7 +269,7 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "MORE ON" SINGLE STORY BOX v. 2 -->
 {% endhighlight %}
 
-## "More on" list box, with image
+### "More on" list box, with image
 
 {% highlight html %}
 <!-- START "MORE ON" LIST BOX v. 3 -->
@@ -285,7 +293,7 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "MORE ON" LIST BOX v. 3 -->
 {% endhighlight %}
 
-## "More on" list box, no image
+### "More on" list box, no image
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/more_on_list.png)
 
@@ -304,7 +312,7 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "MORE ON" LIST BOX v. 3 -->
 {% endhighlight %}
 
-## Study of the Day
+### Study of the Day
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/study.png)
 
@@ -338,7 +346,7 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
 {% endhighlight %}
 
-## More Emporium
+### More Emporium
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/emporium.png)
 
@@ -372,7 +380,7 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
 {% endhighlight %}
 
-## Related Video
+### Related Video
 
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/video.png)
 
@@ -394,7 +402,7 @@ The words “Go to section 1" will be a link, and when the user clicks it, the b
 <!-- END "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
 {% endhighlight %}
 
-## Multiple "More on" list with thumbnails
+### Multiple "More on" list with thumbnails
 
 {% highlight html %}
 <!-- START MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
