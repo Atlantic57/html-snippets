@@ -278,6 +278,8 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
 
 ### "More on" Box
 
+![](https://raw.github.com/theatlantic/html-snippets/master/img/related_story.png)
+
 ```html
 <!-- START "MORE ON" SINGLE STORY BOX v. 2 -->
 <aside class="callout">
