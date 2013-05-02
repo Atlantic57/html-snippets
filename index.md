@@ -13,7 +13,7 @@ layout: main
 
 <table>
     <tr>
-        <th>Character</th>
+        <th width="25%">Character</th>
         <th>HTML</th>
     </tr>
     <tr>
@@ -21,7 +21,7 @@ layout: main
         <td>
 
 {% highlight html %}
-            <br/>
+<br/>
 {% endhighlight %}
 
         </td>
@@ -31,7 +31,7 @@ layout: main
         <td>
 
 {% highlight html %}
-            &nbsp;
+&nbsp;
 {% endhighlight %}
 
         </td>
@@ -41,7 +41,7 @@ layout: main
         <td>
 
 {% highlight html %}
-            &mdash;
+&mdash;
 {% endhighlight %}
         </td>
     </tr>
@@ -50,8 +50,9 @@ layout: main
         <td>
 
 {% highlight html %}
-            &ndash;
+&ndash;
 {% endhighlight %}
+
         </td>
     </tr>
     <tr>
@@ -59,7 +60,7 @@ layout: main
         <td>
 
 {% highlight html %}
-            &bull;
+&bull;
 {% endhighlight %}
 
         </td>
@@ -83,11 +84,11 @@ layout: main
 ### Pull quote
 
 {% highlight html %}
-    <!-- PULL QUOTE v. 2 -->
-    <aside class="pullquote">
-        [QUOTE]
-    </aside>
-    <!-- END PULL QUOTE v. 2 -->
+<!-- PULL QUOTE v. 2 -->
+<aside class="pullquote">
+    [QUOTE]
+</aside>
+<!-- END PULL QUOTE v. 2 -->
 {% endhighlight %}
 
 ### Captions or credits
@@ -101,18 +102,20 @@ layout: main
 
 ### Open a new window with a link (use very sparingly)
 
-{% highlight html %} 
+{% highlight html %}
 <a href="something" target="_blank">link text</a>
 {% endhighlight %}
 
 ### Suppress Slideshow Thumbnails
 
 {% highlight html %}
+<!-- START SUPPRESS SLIDESHOW THUMBNAILS -->
 <style type="text/css">
-    #altGallery .galleryNav { display:none !important } 
-    #altGallery .fullScreen { display: none !important }
-    #altGallery .galleryTitle { display:none !important } 
+    #altGallery .galleryNav { display: none !important; }
+    #altGallery .fullScreen { display: none !important; }
+    #altGallery .galleryTitle { display: none !important; }
 </style>
+<!-- END SUPPRESS SLIDESHOW THUMBNAILS -->
 {% endhighlight %}
 
 ## Creating bookmarks within a document
@@ -120,7 +123,6 @@ layout: main
 Put this where you want the bookmark to be:
 
 {% highlight html %}
-<!-- BOOKMARK -->
 <a name="[bookmark_name]"></a>
 {% endhighlight %}
 
@@ -129,7 +131,6 @@ Be sure to replace [bookmark_name] with whatever you want to call your bookmark.
 Then to create a link to that bookmark, use this:
 
 {% highlight html %}
-<!-- LINK TO BOOKMARK -->
 <a href="#[bookmark_name]">[link text, e.g., "go to section 1"]</a>
 {% endhighlight %}
 
@@ -181,7 +182,208 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "ATLANTIC CITIES" BUG FOR POSTS -->
 {% endhighlight %}
 
-### Atlantic Cities partner-style
+## Related Content
+
+### See Also
+
+{% highlight html %}
+<!-- START "SEE ALSO" v. 1 -->
+<aside class="callout">
+    <hr/>
+    <h4>See also</h4>
+    <h5>(Optional subtitle)</h5>
+    <p><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></p>
+    <hr/>
+</aside>
+<!-- END "SEE ALSO" v. 1 -->
+{% endhighlight %}
+
+![](https://raw.github.com/theatlantic/html-snippets/master/img/see_also.png)
+
+<br>
+
+### "More on" Box
+
+{% highlight html %}
+<!-- START "MORE ON" SINGLE STORY BOX v. 2 -->
+<aside class="callout">
+    <h4>Related Story</h4>
+    <div>
+        <a href="[URL]">
+            <img width="242" src="[THUMBNAIL URL]" />
+        </a>
+    </div>
+    <p>
+        <a href="[URL]">[ARTICLE TITLE]</a>
+    </p>
+</aside>
+<!-- END "MORE ON" SINGLE STORY BOX v. 2 -->
+{% endhighlight %}
+
+![](https://raw.github.com/theatlantic/html-snippets/master/img/related_story.png)
+
+<br>
+
+### "More on" list box, with image
+
+{% highlight html %}
+<!-- START "MORE ON" LIST BOX v. 3 -->
+<aside class="callout">
+    <hr/>
+    <h4>More From Quartz</h4>
+    <div>
+        <a href="[URL]">
+            <img width="242" src="[THUMBNAIL URL]" />
+        </a>
+    </div>
+    <ul>
+        <li><a href="[URL]">[TITLE]</a></li>
+        <li><a href="[URL]">[TITLE]</a></li>
+        <li><a href="[URL]">[TITLE]</a></li>
+    </ul>
+    <hr/>
+</aside>
+<!-- END "MORE ON" LIST BOX v. 3 -->
+{% endhighlight %}
+
+### "More on" list box, no image
+
+{% highlight html %}
+<!-- START "MORE ON" LIST BOX NO IMAGE v. 3 -->
+<aside class="callout">
+    <hr/>
+    <h4>More From Quartz</h4>
+    <ul>
+        <li><a href="[URL]">[TITLE]</a></li>
+        <li><a href="[URL]">[TITLE]</a></li>
+        <li><a href="[URL]">[TITLE]</a></li>
+    </ul>
+    <hr/>
+</aside>
+<!-- END "MORE ON" LIST BOX v. 3 -->
+{% endhighlight %}
+
+![](https://raw.github.com/theatlantic/html-snippets/master/img/more_on_list.png)
+
+<br>
+
+### Study of the Day
+
+{% highlight html %}
+<!-- START "MORE STUDY OF THE DAY" BOX v. 1 -->
+<aside class="callout">
+  <hr/>
+  <a href="http://www.theatlantic.com/health/category/studies">
+    <img width="242" alt="More Studies of the Day"
+         src="http://cdn.theatlantic.com/front/images/bugs/studyoftheday.png"/>
+  </a>
+  <ul>
+    <li>
+      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+    </li>
+    <li>
+      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+    </li>
+    <li>
+      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+    </li>
+  </ul>
+  <hr/>
+</aside>
+<!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
+{% endhighlight %}
+
+![](https://raw.github.com/theatlantic/html-snippets/master/img/study.png)
+
+<br>
+
+### More Emporium
+
+{% highlight html %}
+<!-- START "MORE STUDY OF THE DAY" BOX v. 1 -->
+<aside class="callout">
+  <hr/>
+  <a href="http://www.theatlantic.com/health/category/emporium/">
+    <img width="242" alt="Dr. Hamblin's Emporium of Medicinal Wonderments"
+        src="http://cdn.theatlantic.com/mt/assets/food/DHEMW_bug_2.png"/>
+  </a>
+  <ul>
+    <li>
+      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+    </li>
+    <li>
+      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+    </li>
+    <li>
+      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+    </li>
+  </ul>
+  <hr/>
+</aside>
+<!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
+{% endhighlight %}
+
+![](https://raw.github.com/theatlantic/html-snippets/master/img/emporium.png)
+
+<br>
+
+### Related Video
+
+{% highlight html %}
+<!-- START "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
+<aside class="callout">
+    <hr/>
+    <h4>Related Video</h4>
+    <a class="related-video-link" href="[ARTICLE URL]">
+        <img width="242" src="[THUMBNAIL URL]" />
+   </a>
+    <p>
+        <a href="[ARTICLE URL]">
+            [ARTICLE TITLE]
+        </a>
+    </p>
+    <hr/>
+</aside>
+<!-- END "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
+{% endhighlight %}
+
+![](https://raw.github.com/theatlantic/html-snippets/master/img/video.png)
+
+<br>
+
+### Multiple "More on" list with thumbnails
+
+{% highlight html %}
+<!-- START MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
+<aside class="callout">
+  <hr/>
+  <h4>More on [SUBJECT]</h4>
+  <ul class="with-thumbs">
+    <li>
+      <a href="[ARTICLE URL]">
+        <img width="90" src="[THUMBNAIL URL]"/>
+        [ARTICLE TITLE]
+      </a>
+    </li>
+    <li>
+      <a href="[ARTICLE URL]">
+        <img width="90" src="[THUMBNAIL URL]"/>
+        [ARTICLE TITLE]
+      </a>
+    </li>
+    <li>
+      <a href="[ARTICLE URL]">
+        <img width="90" src="[THUMBNAIL URL]"/>
+        [ARTICLE TITLE]
+      </a>
+    </li>
+  </ul>
+  <hr/>
+</aside>
+<!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
+{% endhighlight %}
+
+### Atlantic Cities partner box
 
 {% highlight html %}
 <!-- START "CITIES PARTNER" BOX v. 1 -->
@@ -209,230 +411,22 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
         line-height: 12pt;
         margin-left: -20px;">
         <li style="margin-bottom: 7px;">
-            <a href="[ARTICLE'S URL GOES HERE]">
-                [ARTICLE'S HEADLINE GOES HERE]
+            <a href="[ARTICLE URL]">
+                [ARTICLE HEADLINE]
             </a>
         </li>
         <li style="margin-bottom: 7px;">
-            <a href="[ARTICLE'S URL GOES HERE]">
-                [ARTICLE'S HEADLINE GOES HERE]
+            <a href="[ARTICLE URL]">
+                [ARTICLE HEADLINE]
             </a>
         </li>
         <li style="margin-bottom: 7px;">
-            <a href="[ARTICLE'S URL GOES HERE]">
-                [ARTICLE'S HEADLINE GOES HERE]
+            <a href="[ARTICLE URL]">
+                [ARTICLE HEADLINE]
             </a>
-        </li>     
+        </li>
     </ul>
     <hr/>
 </div>
 <!-- END "CITIES PARTNER" BOX v. 1 -->
-{% endhighlight %}
-
-## Related Content
-
-### See Also
-
-![](https://raw.github.com/theatlantic/html-snippets/master/img/see_also.png)
-
-{% highlight html %}
-<!-- START "SEE ALSO" v. 1 -->
-<aside class="callout">
-    <hr/>
-    <h4>See also</h4>
-    <h5>(Optional subtitle)</h5>
-    <p><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></p>
-    <hr/>
-</aside>
-<!-- END "SEE ALSO" v. 1 -->
-{% endhighlight %}
-
-### "More on" Box
-
-![](https://raw.github.com/theatlantic/html-snippets/master/img/related_story.png)
-
-{% highlight html %}
-<!-- START "MORE ON" SINGLE STORY BOX v. 2 -->
-<aside class="callout">
-    <h4>Related Story</h4>
-    <div>
-        <a href="[URL]">
-            <img width="242" src="[THUMBNAIL URL]" />
-        </a>
-    </div>
-    <p>
-        <a href="[URL]">
-            [ARTICLE TITLE]
-        </a>
-    </p>
-</aside>
-<!-- END "MORE ON" SINGLE STORY BOX v. 2 -->
-{% endhighlight %}
-
-### "More on" list box, with image
-
-{% highlight html %}
-<!-- START "MORE ON" LIST BOX v. 3 -->
-<aside class="callout">
-    <hr/>
-    <h4>More From Quartz</h4>
-    <div>
-        <a href="[URL]">
-            <img width="242" src="[THUMBNAIL URL]" />
-        </a>
-    </div>
-
-    <ul>
-        <li><a href="[URL]">[HEADLINE 1]</a></li>
-        <li><a href="[URL]">[HEADLINE 2]</a></li>
-        <li><a href="[URL]">[HEADLINE 3]</a></li>
-    </ul>
-
-    <hr/>
-</aside>
-<!-- END "MORE ON" LIST BOX v. 3 -->
-{% endhighlight %}
-
-### "More on" list box, no image
-
-![](https://raw.github.com/theatlantic/html-snippets/master/img/more_on_list.png)
-
-{% highlight html %}
-<!-- START "MORE ON" LIST BOX NO IMAGE v. 3 -->
-<aside class="callout">
-    <hr/>
-    <h4>More From Quartz</h4>
-    <ul>
-        <li><a href="[URL]">[TITLE 1]</a></li>
-        <li><a href="[URL]">[TITLE 2]</a></li>
-        <li><a href="[URL]">[TITLE 3]</a></li>
-    </ul>
-    <hr/>
-</aside>
-<!-- END "MORE ON" LIST BOX v. 3 -->
-{% endhighlight %}
-
-### Study of the Day
-
-![](https://raw.github.com/theatlantic/html-snippets/master/img/study.png)
-
-{% highlight html %}
-<!-- START "MORE STUDY OF THE DAY" BOX v. 1 -->
-<aside class="callout">
-   <hr/>
-    <a href="http://www.theatlantic.com/health/category/studies">
-        <img width="242" alt="NJ logo.JPG" 
-                src="http://cdn.theatlantic.com/static/front/images/bugs/studyoftheday.png"/>
-    </a>
-    <ul>
-        <li>
-            <a href="[ARTICLE URL]">
-                [ARTICLE TITLE]
-            </a>
-        </li>
-        <li>
-            <a href="[ARTICLE URL]">
-                [ARTICLE TITLE]
-            </a>
-        </li>
-        <li>
-            <a href="[ARTICLE URL]">
-                [ARTICLE TITLE]
-            </a>
-        </li>
-   </ul>
-   <hr/>
-</aside>
-<!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
-{% endhighlight %}
-
-### More Emporium
-
-![](https://raw.github.com/theatlantic/html-snippets/master/img/emporium.png)
-
-{% highlight html %}
-<!-- START "MORE STUDY OF THE DAY" BOX v. 1 -->
-<aside class="callout">
-   <hr/>
-    <a href="http://www.theatlantic.com/health/category/emporium/">
-        <img width="242" alt="NJ logo.JPG" 
-                src="http://cdn.theatlantic.com/static/mt/assets/food/DHEMW_bug_2.png">
-    </a>
-    <ul>
-        <li>
-            <a href="[ARTICLE'S URL GOES HERE]">
-                [ARTICLE'S HEADLINE GOES HERE]
-            </a>
-        </li>
-        <li>
-            <a href="[ARTICLE'S URL GOES HERE]">
-                [ARTICLE'S HEADLINE GOES HERE]
-            </a>
-        </li>
-        <li>
-            <a href="[ARTICLE'S URL GOES HERE]">
-                [ARTICLE'S HEADLINE GOES HERE]
-            </a>
-        </li>
-   </ul>
-   <hr/>
-</aside>
-<!-- END "MORE STUDY OF THE DAY" BOX v. 1 -->
-{% endhighlight %}
-
-### Related Video
-
-![](https://raw.github.com/theatlantic/html-snippets/master/img/video.png)
-
-{% highlight html %}
-<!-- START "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
-<aside class="callout">
-    <hr/>
-    <h4>Related Video</h4>
-    <a class="related-video-link" href="[ARTICLE URL]">
-        <img width="242" src="[THUMBNAIL URL]" />
-   </a>
-    <p>
-        <a href="[ARTICLE URL]">
-            [ARTICLE TITLE]
-        </a>
-    </p>
-    <hr/>
-</aside>
-<!-- END "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
-{% endhighlight %}
-
-### Multiple "More on" list with thumbnails
-
-{% highlight html %}
-<!-- START MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
-<aside class="callout">
-  <hr/>
-  <h4>More on [SUBJECT]</h4>
-  <ul class="with-thumbs">
-    <li>
-      <a href="[ARTICLE URL]">
-        <img width="90" src="[THUMBNAIL URL]"/>
-        [ARTICLE TITLE]
-      </a>
-    </li>
-
-    <li>
-      <a href="[ARTICLE URL]">
-        <img width="90" src="[THUMBNAIL URL]"/>
-        [ARTICLE TITLE]
-      </a>
-    </li>
-
-    <li>
-      <a href="[ARTICLE URL]">
-        <img width="90" src="[THUMBNAIL URL]"/>
-        [ARTICLE TITLE]
-      </a>
-    </li>
-
-  </ul>
-  <hr/>
-</aside>
-<!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
 {% endhighlight %}
