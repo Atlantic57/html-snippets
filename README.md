@@ -324,6 +324,8 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
 
 ### "More on" list box, no image
 
+![](https://raw.github.com/theatlantic/html-snippets/master/img/more_on_list.png)
+
 ```html
 <!-- START "MORE ON" LIST BOX NO IMAGE v. 3 -->
 <aside class="callout">
