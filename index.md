@@ -129,7 +129,7 @@ To use the caption and credit styles on videos and other embeds, use the appropr
 ### Open a new window with a link (use very sparingly)
 
 {% highlight html %}
-<a href="something" target="_blank">link text</a>
+<a href="[FULL URL]" target="_blank">link text</a>
 {% endhighlight %}
 
 ## Suppress Slideshow Thumbnails
