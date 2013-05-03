@@ -235,6 +235,14 @@ hr {
   }
 }
 
+/* No bottom-margin on nested ul and ol elements */
+
+ul ul,
+ol ul,
+ul ol {
+    margin-bottom: 0;
+}
+
 .wrapper > header, .wrapper > footer {
     display: none;
 }
