@@ -233,6 +233,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 {% highlight html %}
 <!-- START "MORE ON" SINGLE STORY BOX v. 2 -->
 <aside class="callout">
+    <hr/>
     <h4>Related Story</h4>
     <div>
         <a href="[URL]">
@@ -242,6 +243,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
     <p>
         <a href="[URL]">[ARTICLE TITLE]</a>
     </p>
+    <hr/>
 </aside>
 <!-- END "MORE ON" SINGLE STORY BOX v. 2 -->
 {% endhighlight %}
@@ -304,15 +306,9 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
          src="http://cdn.theatlantic.com/front/images/bugs/studyoftheday.png"/>
   </a>
   <ul>
-    <li>
-      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
-    </li>
-    <li>
-      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
-    </li>
-    <li>
-      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
-    </li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
   </ul>
   <hr/>
 </aside>
@@ -334,15 +330,9 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
         src="http://cdn.theatlantic.com/mt/assets/food/DHEMW_bug_2.png"/>
   </a>
   <ul>
-    <li>
-      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
-    </li>
-    <li>
-      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
-    </li>
-    <li>
-      <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
-    </li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
   </ul>
   <hr/>
 </aside>
@@ -364,9 +354,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
         <img width="242" src="[THUMBNAIL URL]" />
    </a>
     <p>
-        <a href="[ARTICLE URL]">
-            [ARTICLE TITLE]
-        </a>
+        <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
     </p>
     <hr/>
 </aside>
