@@ -84,21 +84,47 @@ layout: main
 ### Pull quote
 
 {% highlight html %}
-<!-- PULL QUOTE v. 2 -->
 <aside class="pullquote">
     [QUOTE]
 </aside>
-<!-- END PULL QUOTE v. 2 -->
 {% endhighlight %}
 
-### Captions or credits
+### Captions / Credits
+
+#### Caption
 
 {% highlight html %}
 <figure>
-    <img src="[IMAGE URL]" alt="[OPTIONAL IMAGE DESCRIPTION]" />
-    <figcaption>CAPTION (OPTIONAL CREDITS)</figcaption>
+    <img src="[IMAGE URL]" alt="[IMAGE DESCRIPTION]" />
+    <figcaption>CAPTION</figcaption>
 </figure>
 {% endhighlight %}
+
+#### Credit
+
+Credits display slightly smaller than captions and are right-aligned
+
+{% highlight html %}
+<figure>
+    <img src="[IMAGE URL]" alt="[IMAGE DESCRIPTION]" />
+    <figcaption class="credit">CREDITS</figcaption>
+</figure>
+{% endhighlight %}
+
+#### Caption and credit
+
+To display both a caption and a credit, use the style for captions and add the credits in parentheses after the caption text.
+
+{% highlight html %}
+<figure>
+    <img src="[IMAGE URL]" alt="[IMAGE DESCRIPTION]" />
+    <figcaption>CAPTION (CREDIT)</figcaption>
+</figure>
+{% endhighlight %}
+
+#### Caption or credit for a video
+
+To use the caption and credit styles on videos and other embeds, use the appropriate style above and replace the `<img/>` tag with your embed code.
 
 ### Open a new window with a link (use very sparingly)
 
@@ -106,7 +132,7 @@ layout: main
 <a href="something" target="_blank">link text</a>
 {% endhighlight %}
 
-### Suppress Slideshow Thumbnails
+## Suppress Slideshow Thumbnails
 
 {% highlight html %}
 <!-- START SUPPRESS SLIDESHOW THUMBNAILS -->
