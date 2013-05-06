@@ -291,7 +291,12 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "MORE ON" LIST BOX v. 3 -->
 {% endhighlight %}
 
+![](https://raw.github.com/theatlantic/html-snippets/master/img/more_on_list.png)
+
+<br>
+
 ### More From National Journal
+
 {% highlight html %}
 <!-- START "NJ PARTNER" BOX -->
 <aside class="callout">
@@ -315,13 +320,8 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
     <hr/>
 </aside>
 <!-- END "NJ PARTNER" BOX -->
-
 {% endhighlight %}
 
-
-![](https://raw.github.com/theatlantic/html-snippets/master/img/more_on_list.png)
-
-<br>
 
 ### Study of the Day
 
