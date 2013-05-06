@@ -302,8 +302,8 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <aside class="callout">
     <hr/>
     <a href="http://www.nationaljournal.com/" class="top-image">
-        <img width="55" alt="NJ"
-             src="http://assets.theatlantic.com/static/mt/assets/politics/NJ%20logo.JPG"/>
+        <img width="55" height="55" alt="National Journal"
+             src="http://cdn.theatlantic.com/static/mt/assets/politics/NJ%20logo.JPG"/>
         <h4>More from National Journal</h4>
     </a>
     <ul>
