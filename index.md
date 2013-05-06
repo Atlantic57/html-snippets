@@ -296,7 +296,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- START "NJ PARTNER" BOX -->
 <aside class="callout">
     <hr/>
-    <a href="http://www.theatlanticcities.com/" class="top-image">
+    <a href="http://www.nationaljournal.com/" class="top-image">
         <img width="55" alt="NJ"
              src="http://assets.theatlantic.com/static/mt/assets/politics/NJ%20logo.JPG"/>
         <h4>More from National Journal</h4>
