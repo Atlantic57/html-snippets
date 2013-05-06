@@ -291,6 +291,33 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "MORE ON" LIST BOX v. 3 -->
 {% endhighlight %}
 
+### More From National Journal
+{% highlight html %}
+<!-- START "NJ PARTNER" BOX -->
+<aside class="callout">
+    <hr/>
+    <a href="http://www.theatlanticcities.com/">
+        <img width="55" alt="NJ" class="nj-logo"
+             src="http://assets.theatlantic.com/static/mt/assets/politics/NJ%20logo.JPG"/>
+        <h4>More from National Journal</h4>
+    </a>
+    <ul>
+        <li>
+            <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+        </li>
+        <li>
+            <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+        </li>
+        <li>
+            <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+        </li>
+    </ul>
+    <hr/>
+</aside>
+<!-- END "NJ PARTNER" BOX -->
+{% endhighlight %}
+
+
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/more_on_list.png)
 
 <br>
