@@ -322,6 +322,24 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "NJ PARTNER" BOX -->
 {% endhighlight %}
 
+### More from Quartz
+
+{% highlight html %}
+<!-- START "MORE ON" QZ -->
+<aside class="callout">
+    <hr/>
+    <h4>More From Quartz</h4>
+        <a href="http://qz.com"><img width="242" src="http://cdn.theatlantic.com/static/mt/assets/international/Quartz-Logo.jpg"/></a>
+        <ul>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+        </ul>
+    <hr/>
+    </aside>
+<!-- END "MORE ON" QZ -->
+{% endhighlight %}
+
 
 ### Study of the Day
 
