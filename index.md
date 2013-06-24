@@ -100,6 +100,24 @@ layout: main
 </figure>
 {% endhighlight %}
 
+You can also float images so they don't take up the full-width by setting the size and direction
+in a class.
+
+{% highlight html %}
+<figure class="right one-third">
+    <img src="[IMAGE URL]" alt="[IMAGE DESCRIPTION]" />
+    <figcaption>CAPTION</figcaption>
+</figure>
+{% endhighlight %}
+
+This will put the image on the right and make it up to one-third of the content well's width.
+
+Valid options are: `right` and `left`, which you can combine with `one-third`, `two-thirds`,
+`golden-ratio-big` and `golden-ratio-small`.
+
+You'll want to resize the image width to match these sizes manually.
+
+
 #### Credit
 
 Credits display slightly smaller than captions and are right-aligned
