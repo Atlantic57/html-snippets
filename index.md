@@ -113,7 +113,7 @@ in a class.
 This will put the image on the right and make it up to one-third of the content well's width.
 
 Valid options are: `right` and `left`, which you can combine with `one-third`, `two-thirds`,
-`golden-ratio-big` and `golden-ratio-small`.
+`golden-ratio-big` (about 62%) and `golden-ratio-small` (about 38%).
 
 You'll want to resize the image width to match these sizes manually.
 
