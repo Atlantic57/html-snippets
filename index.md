@@ -75,12 +75,6 @@ layout: main
 <hr />
 {% endhighlight %}
 
-### Page break
-
-{% highlight html %}
-<pagebreak />
-{% endhighlight %}
-
 ### Pull quote
 
 {% highlight html %}
