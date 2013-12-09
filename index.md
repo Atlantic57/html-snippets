@@ -286,36 +286,35 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "MORE ON" LIST BOX v. 3 -->
 {% endhighlight %}
 
-### "More on" list box, no image
-
+### More from Quartz
 {% highlight html %}
-<!-- START "MORE ON" LIST BOX NO IMAGE v. 3 -->
-<aside class="callout">
+<!-- START "MORE ON" QZ -->
+<aside class="partner-box">
     <hr/>
-    <h4>More From Quartz</h4>
-    <ul>
-        <li><a href="[URL]">[TITLE]</a></li>
-        <li><a href="[URL]">[TITLE]</a></li>
-        <li><a href="[URL]">[TITLE]</a></li>
-    </ul>
+    <h4>More From</h4>
+        <a href="http://qz.com">
+            <img src="http://cdn.theatlantic.com/static/front/images/partners/quartz.png"/>
+        </a>
+        <ul>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+        </ul>
     <hr/>
-</aside>
-<!-- END "MORE ON" LIST BOX v. 3 -->
+    </aside>
+<!-- END "MORE ON" QZ -->
 {% endhighlight %}
+![](images/more-from-qz.png)
 
-![](https://raw.github.com/theatlantic/html-snippets/master/img/more_on_list.png)
-
-<br>
 
 ### More From National Journal
-
 {% highlight html %}
-<!-- START "NJ PARTNER" BOX -->
-<aside class="callout">
+<!-- START "MORE ON" NATIONAL JOURNAL -->
+<aside class="partner-box">
     <hr/>
-    <a href="http://www.nationaljournal.com/" class="top-image">
-        <img width="55" height="55" alt="National Journal"
-             src="http://cdn.theatlantic.com/static/mt/assets/politics/NJ%20logo.JPG"/>
+    <a href="http://www.nationaljournal.com/">
+        <img alt="National Journal"
+             src="http://cdn.theatlantic.com/static/front/images/partners/national-journal.png"/>
         <h4>More from National Journal</h4>
     </a>
     <ul>
@@ -334,14 +333,14 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "NJ PARTNER" BOX -->
 {% endhighlight %}
 
-### More from Quartz
+### More from Defense One
 
 {% highlight html %}
-<!-- START "MORE ON" QZ -->
-<aside class="callout">
+<!-- START "MORE ON" DEFENSE ONE -->
+<aside class="partner-box">
     <hr/>
-    <h4>More From Quartz</h4>
-        <a href="http://qz.com"><img width="242" src="http://cdn.theatlantic.com/static/mt/assets/international/Quartz-Logo.jpg"/></a>
+    <h4>More From</h4>
+        <a href="http://defenseone.com"><img src="http://cdn.theatlantic.com/static/front/images/partners/defense-one.png"/></a>
         <ul>
             <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
             <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>

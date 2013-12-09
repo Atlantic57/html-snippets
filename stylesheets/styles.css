@@ -269,8 +269,10 @@ Next-sibling selector anchored on h2/h3 id
 #study_of_the_day + .highlight,
 #more_emporium + .highlight,
 #related_video + .highlight,
+#more_from_quartz + .highlight,
 #see_also + .highlight,
 #more_on_box + .highlight + p,
+#more_from_quartz + .highlight + p,
 #more_on_list_box_no_image + .highlight + p,
 #study_of_the_day + .highlight + p,
 #more_emporium + .highlight + p,
@@ -284,6 +286,7 @@ Next-sibling selector anchored on h2/h3 id
 #study_of_the_day + .highlight + p + *,
 #more_emporium + .highlight + p + *,
 #related_video + .highlight + p + *,
+#more_from_quartz + .highlight + p + *,
 #see_also + .highlight + p + * {
     clear: both;
 }
@@ -293,6 +296,7 @@ Next-sibling selector anchored on h2/h3 id
 #study_of_the_day + .highlight + p,
 #more_emporium + .highlight + p,
 #related_video + .highlight + p,
+#more_from_quartz + .highlight + p,
 #see_also + .highlight + p {
     margin-left: 30px;
 }
