@@ -293,7 +293,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
     <hr/>
     <h4>More From</h4>
         <a href="http://qz.com">
-            <img src="http://cdn.theatlantic.com/static/front/images/partners/quartz.png"/>
+            <img src="http://cdn.theatlantic.com/static/front/images/partners/quartz.png" alt="Quartz" />
         </a>
         <ul>
             <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
@@ -314,7 +314,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
     <hr/>
     <a href="http://www.nationaljournal.com/">
         <img alt="National Journal"
-             src="http://cdn.theatlantic.com/static/front/images/partners/national-journal.png"/>
+             src="http://cdn.theatlantic.com/static/front/images/partners/national-journal.png" alt="National Journal" />
         <h4>More from National Journal</h4>
     </a>
     <ul>
@@ -340,7 +340,9 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <aside class="partner-box">
     <hr/>
     <h4>More From</h4>
-        <a href="http://defenseone.com"><img src="http://cdn.theatlantic.com/static/front/images/partners/defense-one.png"/></a>
+        <a href="http://defenseone.com">
+            <img src="http://cdn.theatlantic.com/static/front/images/partners/defense-one.png" alt="Defense One" />
+        </a>
         <ul>
             <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
             <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
