@@ -270,7 +270,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- START "MORE ON" LIST BOX v. 3 -->
 <aside class="callout">
     <hr/>
-    <h4>More From Quartz</h4>
+    <h4>More on Coffee</h4>
     <div>
         <a href="[URL]">
             <img width="242" src="[THUMBNAIL URL]" />
@@ -284,73 +284,6 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
     <hr/>
 </aside>
 <!-- END "MORE ON" LIST BOX v. 3 -->
-{% endhighlight %}
-
-### More from Quartz
-{% highlight html %}
-<!-- START "MORE ON" QZ -->
-<aside class="partner-box">
-    <hr/>
-    <h4>More From</h4>
-        <a href="http://qz.com">
-            <img src="http://cdn.theatlantic.com/static/front/images/partners/quartz.png" alt="Quartz" />
-        </a>
-        <ul>
-            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
-            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
-            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
-        </ul>
-    <hr/>
-    </aside>
-<!-- END "MORE ON" QZ -->
-{% endhighlight %}
-![](images/more-from-qz.png)
-
-
-### More From National Journal
-{% highlight html %}
-<!-- START "MORE ON" NATIONAL JOURNAL -->
-<aside class="partner-box">
-    <hr/>
-    <a href="http://www.nationaljournal.com/">
-        <img alt="National Journal"
-             src="http://cdn.theatlantic.com/static/front/images/partners/national-journal.png" alt="National Journal" />
-        <h4>More from National Journal</h4>
-    </a>
-    <ul>
-        <li>
-            <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
-        </li>
-        <li>
-            <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
-        </li>
-        <li>
-            <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
-        </li>
-    </ul>
-    <hr/>
-</aside>
-<!-- END "NJ PARTNER" BOX -->
-{% endhighlight %}
-
-### More from Defense One
-
-{% highlight html %}
-<!-- START "MORE ON" DEFENSE ONE -->
-<aside class="partner-box">
-    <hr/>
-    <h4>More From</h4>
-        <a href="http://defenseone.com">
-            <img src="http://cdn.theatlantic.com/static/front/images/partners/defense-one.png" alt="Defense One" />
-        </a>
-        <ul>
-            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
-            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
-            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
-        </ul>
-    <hr/>
-    </aside>
-<!-- END "MORE ON" QZ -->
 {% endhighlight %}
 
 
@@ -456,16 +389,35 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
 {% endhighlight %}
 
-### Atlantic Cities partner box
 
+## More From Partners
+
+These are thin bars that go on the right size of NJ/Quartz stories.
+
+### More from Quartz
 {% highlight html %}
-<!-- START "CITIES PARTNER" BOX v. 2 -->
-<aside class="callout">
+<!-- START "MORE FROM" QZ -->
+<aside class="partner-box">
     <hr/>
-    <a href="http://www.theatlanticcities.com/">
-        <img width="155" alt="The Atlantic Cities"
-             src="http://cdn.theatlanticcities.com/img/site/Cities_155x82.png"/>
-    </a>
+    <h4 class="qz">More From <a href="http://qz.com">Quartz</a></h4>
+        <ul>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+        </ul>
+    <hr/>
+    </aside>
+<!-- END "MORE FROM" QZ -->
+{% endhighlight %}
+![](images/more-from-qz.png)
+
+
+### More From National Journal
+{% highlight html %}
+<!-- START "MORE FROM" NATIONAL JOURNAL -->
+<aside class="partner-box">
+    <hr/>
+    <h4 class="nj">More From <a href="http://nationaljournal.com">National Journal</a></h4>
     <ul>
         <li>
             <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
@@ -479,5 +431,22 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
     </ul>
     <hr/>
 </aside>
-<!-- END "CITIES PARTNER" BOX v. 2 -->
+<!-- END "MORE FROM" NATIONAL JOURNAL -->
+{% endhighlight %}
+
+### More from Defense One
+
+{% highlight html %}
+<!-- START "MORE FROM" DEFENSE ONE -->
+<aside class="partner-box">
+    <hr/>
+    <h4 class="defense-one">More From <a href="http://defenseone.com">Defense One</a></h4>
+    <ul>
+        <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+        <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+        <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+    </ul>
+    <hr/>
+    </aside>
+<!-- END "MORE FROM" QZ -->
 {% endhighlight %}
