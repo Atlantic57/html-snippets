@@ -144,6 +144,17 @@ To use the caption and credit styles on videos and other embeds, use the appropr
 <a href="[FULL URL]" target="_blank">link text</a>
 {% endhighlight %}
 
+
+### Amazon Links
+
+If you're linking to a book on Amazon, we'd like to let Amazon know it is coming from us. You can set up the link to the book by putting the ISBN number in this URL and using this as the link: 
+
+    http://www.amazon.com/exec/obidos/ISBN=[10 digit ISBN number]/theatla05-20/
+
+Example:
+
+    http://www.amazon.com/exec/obidos/ISBN=0701206713/theatla05-20/
+
 ## Suppress Slideshow Thumbnails
 
 {% highlight html %}
