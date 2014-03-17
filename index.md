@@ -461,3 +461,30 @@ These are thin bars that go on the right size of NJ/Quartz stories.
     </aside>
 <!-- END "MORE FROM" QZ -->
 {% endhighlight %}
+
+### More from Anyone Else (Custom)
+
+Copy the code below, edit the link and couple click the
+empty image to upload the logo into cropduster.
+
+{% highlight html %}
+<!-- START "MORE FROM" Custom -->
+<aside class="partner-box custom">
+<hr />
+<h4>More From</h4>
+
+<figure><a href="http://[example_site.com]">
+    <img alt="[Site's Name]" src="" width="150" />
+</a></figure>
+
+<ul>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+</ul>
+
+<hr /></aside>
+<!-- END "MORE FROM" Custom -->
+{% endhighlight %}
+
+
