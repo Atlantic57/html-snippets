@@ -134,7 +134,7 @@ layout: main
 {% endhighlight %}
 
 
-#### Special Report bug
+### Special Report bug
 {% highlight html %}
 <!-- START "SPECIAL REPORT" BOX -->
 
