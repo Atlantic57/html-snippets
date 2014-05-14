@@ -13,13 +13,13 @@ layout: main
 ### Partner boxes
 #### The Atlantic
 {% highlight html %}
-<!-- START "MORE FROM" THE ATLANTIC -->
+<!-- START "MORE FROM" THE ATLANTIC v2.0 -->
 
 <aside class="partner-box">
 <hr />
 <h4 class="module-tag">More From</h4>
 
-<h4 class="atlantic"><a href="http://www.theatlantic.com">The Atlantic</a></h4>
+<h4 class="logo atlantic"><a href="http://www.theatlantic.com">The Atlantic</a></h4>
 
 <ul>
     <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
@@ -33,13 +33,13 @@ layout: main
 
 #### National Journal
 {% highlight html %}
-<!-- START "MORE FROM" NATIONAL JOURNAL -->
+<!-- START "MORE FROM" NATIONAL JOURNAL v2.0 -->
 
 <aside class="partner-box">
 <hr />
 <h4 class="module-tag">More From</h4>
 
-<h4 class="nj"><a href="http://www.nationaljournal.com">National Journal</a></h4>
+<h4 class="logo nj"><a href="http://www.nationaljournal.com">National Journal</a></h4>
 
 <ul>
     <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
@@ -54,13 +54,13 @@ layout: main
 
 #### The Wire
 {% highlight html %}
-<!-- START "MORE FROM" THE WIRE -->
+<!-- START "MORE FROM" THE WIRE v2.0 -->
 
 <aside class="partner-box">
 <hr />
 <h4 class="module-tag">More From</h4>
 
-<h4 class="wire"><a href="http://www.thewire.com">The Wire</a></h4>
+<h4 class="logo wire"><a href="http://www.thewire.com">The Wire</a></h4>
 
 <ul>
     <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
@@ -75,13 +75,13 @@ layout: main
 
 #### QZ
 {% highlight html %}
-<!-- START "MORE FROM" QUARTZ -->
+<!-- START "MORE FROM" QUARTZ v2.0 -->
 
 <aside class="partner-box">
 <hr />
 <h4 class="module-tag">More From</h4>
 
-<h4 class="qz"><a href="http://qz.com">Quartz</a></h4>
+<h4 class="logo qz"><a href="http://qz.com">Quartz</a></h4>
 
 <ul>
     <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
@@ -96,7 +96,7 @@ layout: main
 
 #### Custom Partner
 {% highlight html %}
-<!-- START "MORE FROM" CUSTOM -->
+<!-- START "MORE FROM" CUSTOM v2.0 -->
 
 <aside class="partner-box">
 <hr />
@@ -117,7 +117,7 @@ layout: main
 
 ### Related box
 {% highlight html %}
-<!-- START "RELATED STORY" SINGLE STORY BOX -->
+<!-- START "RELATED STORY" SINGLE STORY BOX v2.0 -->
 
 <aside class="callout related">
 <hr />
@@ -136,7 +136,7 @@ layout: main
 
 ### Special Report bug
 {% highlight html %}
-<!-- START "SPECIAL REPORT" BOX -->
+<!-- START "SPECIAL REPORT" BOX v2.0 -->
 
 <aside class="callout special-report">
 <hr />
