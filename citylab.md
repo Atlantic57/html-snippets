@@ -9,9 +9,8 @@ layout: main
 * TOC
 {:toc}
 
-## Embed codes
-### Partner boxes
-#### The Atlantic
+## Partner boxes
+### The Atlantic
 {% highlight html %}
 <!-- START "MORE FROM" THE ATLANTIC v2.0 -->
 
@@ -31,7 +30,7 @@ layout: main
 <!-- END "MORE FROM" THE ATLANTIC -->
 {% endhighlight %}
 
-#### National Journal
+### National Journal
 {% highlight html %}
 <!-- START "MORE FROM" NATIONAL JOURNAL v2.0 -->
 
@@ -52,7 +51,7 @@ layout: main
 {% endhighlight %}
 
 
-#### The Wire
+### The Wire
 {% highlight html %}
 <!-- START "MORE FROM" THE WIRE v2.0 -->
 
@@ -73,7 +72,7 @@ layout: main
 {% endhighlight %}
 
 
-#### QZ
+### QZ
 {% highlight html %}
 <!-- START "MORE FROM" QUARTZ v2.0 -->
 
@@ -94,7 +93,7 @@ layout: main
 {% endhighlight %}
 
 
-#### Custom Partner
+### Custom Partner
 {% highlight html %}
 <!-- START "MORE FROM" CUSTOM v2.0 -->
 
@@ -115,7 +114,7 @@ layout: main
 {% endhighlight %}
 
 
-### Related box
+## Related box
 {% highlight html %}
 <!-- START "RELATED STORY" SINGLE STORY BOX v2.0 -->
 
@@ -134,7 +133,7 @@ layout: main
 {% endhighlight %}
 
 
-### Special Report bug
+## Special Report bug
 {% highlight html %}
 <!-- START "SPECIAL REPORT" BOX v2.0 -->
 
