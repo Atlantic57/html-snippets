@@ -150,3 +150,12 @@ layout: main
 <hr /></aside>
 <!-- END "SPECIAL REPORT" BOX -->
 {% endhighlight %}
+
+## Embed with Caption
+{% highlight html %}
+<figure>
+[EMBED CODE]
+
+<figcaption class="caption">[CAPTION HERE]</figcaption>
+</figure>
+{% endhighlight %}
