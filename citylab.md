@@ -50,28 +50,6 @@ layout: main
 <!-- END "MORE FROM" NATIONAL JOURNAL -->
 {% endhighlight %}
 
-
-### The Wire
-{% highlight html %}
-<!-- START "MORE FROM" THE WIRE v2.0 -->
-
-<aside class="partner-box">
-<hr />
-<h4 class="module-tag">More From</h4>
-
-<h4 class="logo wire"><a href="http://www.thewire.com">The Wire</a></h4>
-
-<ul>
-    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
-    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
-    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
-</ul>
-
-<hr /></aside>
-<!-- END "MORE FROM" THE WIRE -->
-{% endhighlight %}
-
-
 ### QZ
 {% highlight html %}
 <!-- START "MORE FROM" QUARTZ v2.0 -->
