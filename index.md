@@ -201,35 +201,6 @@ Then somewhere else in the same document, I could link to that bookmark like thi
 
 The words "Go to section 1" will be a link, and when the user clicks it, the browser will jump back to the bookmark.
 
-## Promotional Bugs
-
-### Atlantic Wire Bug
-
-![](http://cdn.theatlantic.com/static/front/images/wire/articlePromo.png)
-
-{% highlight html %}
-<!-- START "ATLANTIC WIRE" BUG FOR POSTS -->
-<a href="http://www.theatlanticwire.com/"
-   name="&amp;lid=The-Atlantic-Wire&amp;lpos=Article-Bug">
-    <img src="http://cdn.theatlantic.com/static/front/images/wire/articlePromo.png"
-         style="border: 0;">
-</a>
-<!-- END "ATLANTIC WIRE" BUG FOR POSTS -->
-{% endhighlight %}
-
-### Atlantic Cities Bug
-
-![](http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png)
-
-{% highlight html %}
-<!-- START "ATLANTIC CITIES" BUG FOR POSTS -->
-<a href="http://www.theatlanticcities.com/"
-   name="&amp;lid=The-Atlantic-Cities&amp;lpos=Article-Bug">
-    <img src="http://cdn.theatlantic.com/static/front/images/cities/Cities_Atl_bug.png"
-         style="border: 0;">
-</a>
-<!-- END "ATLANTIC CITIES" BUG FOR POSTS -->
-{% endhighlight %}
 
 ## Related Content
 
