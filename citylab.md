@@ -70,6 +70,25 @@ layout: main
 <!-- END "MORE FROM" QUARTZ -->
 {% endhighlight %}
 
+### Government Executive
+{% highlight html %}
+<!-- START "MORE FROM" GOVEXEC v1.0 -->
+
+<aside class="partner-box">
+<hr />
+<h4 class="module-tag">More From</h4>
+
+<h4 class="logo govexec"><a href="http://www.govexec.com">Government Executive</a></h4>
+
+<ul>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+    <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+</ul>
+
+<hr /></aside>
+<!-- END "MORE FROM" GOVEXEC -->
+{% endhighlight %}
 
 ### Custom Partner
 {% highlight html %}
