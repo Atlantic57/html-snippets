@@ -376,6 +376,20 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 
 These are thin bars that go on the right size of NJ/Quartz stories.
 
+### More from GovExec
+<!-- START "MORE FROM" GOVEXEC -->
+<aside class="partner-box">
+    <hr/>
+    <h4 class="govexec">More From <a href="http://govexec.com">GovExec</a></h4>
+        <ul>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+        </ul>
+    <hr/>
+</aside>
+<!-- END "MORE FROM" GOVEXEC -->
+
 ### More from Quartz
 {% highlight html %}
 <!-- START "MORE FROM" QZ -->
