@@ -475,3 +475,50 @@ empty image to upload the logo into cropduster.
 {% endhighlight %}
 
 
+## Video
+
+### From the CMS
+
+You can find this code with the embed button on video channel pages.
+
+{% highlight html %}
+<iframe width="640" height="360" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" 
+    allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" 
+    src="http://www.theatlantic.com/video/iframe/[VIDEOARTICLE_ID]/"></iframe>
+{% endhighlight %}
+
+### From Brightcove
+
+Videos that don't live in Waldo/Ollie can be included if you have their Brightcove ID.
+
+{% highlight html %}
+<iframe width="640" height="360" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" 
+    allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" 
+    src="http://www.theatlantic.com/video/embed/?brightcove_id=[BRIGHTCOVE_ID]"></iframe>
+{% endhighlight %}
+
+**Optional:** You can add `&player=[playername]` to the end of the `src` to control which kind of player is served. This is mainly to separate 
+advertising and analytics - you usually don't need it. The players are:
+
+* `events` (for Atlantic Live)
+* `features` (legacy)
+* `cities` (for videos in the Cities account)
+* `national-journal` (for NJ's videos that aren't imported into our system)
+
+{% highlight html %}
+<iframe width="640" height="360" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" 
+    allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" 
+    src="http://www.theatlantic.com/video/embed/?brightcove_id=[BRIGHTCOVE_ID]&player=[PLAYER]"></iframe>
+{% endhighlight %}
+
+### Full Width Video
+
+Like images, wrap them in a `full-width` figure.
+
+{% highlight html %}
+<figure class="full-width">
+    <iframe width="640" height="360" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" 
+        allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" 
+        src="..."></iframe>
+</figure>
+{% endhighlight %}
