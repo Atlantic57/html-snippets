@@ -411,7 +411,7 @@ The words “Go to section 1” will be a link, and when the user clicks it, the
 
 ### Related Video
 
-![](https://raw.github.com/theatlantic/html-snippets/master/img/video.png)
+![](https://raw.github.com/theatlantic/html-snippets/master/img/emporium.png)
 
 ```html
 <!-- START "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
