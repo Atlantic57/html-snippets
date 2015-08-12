@@ -242,7 +242,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "MORE ON" SINGLE STORY BOX v. 2 -->
 {% endhighlight %}
 
-![]({{ site.url }}/images/related_story.png)
+![](https://raw.github.com/theatlantic/html-snippets/master/img/related_story.png)
 
 <br>
 
@@ -336,7 +336,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
 {% endhighlight %}
 
-![]({{ site.url }}/images/video.png)
+![](https://raw.github.com/theatlantic/html-snippets/master/img/updated_video.png)
 
 <br>
 
