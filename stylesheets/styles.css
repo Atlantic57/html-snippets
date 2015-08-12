@@ -266,6 +266,7 @@ Next-sibling selector anchored on h2/h3 id
 */
 #more-on-box + .highlight,
 #more-on-list-box-no-image + .highlight,
+#more-on-list-box-with-image + .highlight,
 #study-of-theday + .highlight,
 #more-emporium + .highlight,
 #related-video + .highlight,
@@ -274,31 +275,24 @@ Next-sibling selector anchored on h2/h3 id
 #more-on-box + .highlight + p,
 #more-from-quartz + .highlight + p,
 #more-on-list-box-no-image + .highlight + p,
+#more-on-list-box-with-image + .highlight + p,
 #study-of-the-day + .highlight + p,
 #more-emporium + .highlight + p,
 #related-video + .highlight + p,
 #see-also + .highlight + p {
     float: left;
+    margin-right: 30px;
 }
 
 #more-on-box + .highlight + p + *,
 #more-on-list-box-no-image + .highlight + p + *,
+#more-on-list-box-with-image + .highlight + p + *,
 #study-of-the-day + .highlight + p + *,
 #more-emporium + .highlight + p + *,
 #related-video + .highlight + p + *,
 #more-from-quartz + .highlight + p + *,
 #see-also + .highlight + p + * {
     clear: both;
-}
-
-#more-on-box + .highlight + p,
-#more-on-list-box-no-image + .highlight + p,
-#study-of-the-day + .highlight + p,
-#more-emporium + .highlight + p,
-#related-video + .highlight + p,
-#more-from-quartz + .highlight + p,
-#see-also + .highlight + p {
-    margin-left: 30px;
 }
 
 /* Hide "Contents" entry in TOC */
