@@ -267,7 +267,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 </aside>
 <!-- END "MORE ON" LIST BOX v. 3 -->
 {% endhighlight %}
-![]({{ site.url }}/images/more_on.png)
+![](https://raw.github.com/theatlantic/html-snippets/master/img//more_on.png)
 
 
 ### Study of the Day
