@@ -374,8 +374,8 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 
 ### Read Follow-up Notes
 {% highlight html %}
-<!-- START "MORE FROM" QZ -->
-<aside class="partner-box">
+<!-- Read "Follow-up Notes" -->
+<aside class="read-notes">
     <hr/>
     <h4 class="qz">More From <a href="http://qz.com">Quartz</a></h4>
         <ul>
@@ -385,7 +385,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
         </ul>
     <hr/>
     </aside>
-<!-- END "MORE FROM" QZ -->
+<!-- END "Follow-up Notes" -->
 {% endhighlight %}
 ![](images/notes-label.svg)
 
