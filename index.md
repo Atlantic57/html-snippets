@@ -372,6 +372,23 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
 {% endhighlight %}
 
+### Read Follow-up Notes
+{% highlight html %}
+<!-- START "MORE FROM" QZ -->
+<aside class="partner-box">
+    <hr/>
+    <h4 class="qz">More From <a href="http://qz.com">Quartz</a></h4>
+        <ul>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+            <li><a href="[ARTICLE URL]">[ARTICLE TITLE]</a></li>
+        </ul>
+    <hr/>
+    </aside>
+<!-- END "MORE FROM" QZ -->
+{% endhighlight %}
+![](images/notes-label.svg)
+
 
 ## More From Partners
 
