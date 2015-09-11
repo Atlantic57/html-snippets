@@ -387,7 +387,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 </aside>
 <!-- END "Follow-up Notes" -->
 {% endhighlight %}
-![](images/notes_screenshot.png)
+![](https://raw.github.com/theatlantic/html-snippets/master/img/notes_screenshot.png)
 
 
 ## More From Partners
