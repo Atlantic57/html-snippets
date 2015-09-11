@@ -375,19 +375,19 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 ### Notes 
 {% highlight html %}
 <!-- Read "Follow-up Notes" -->
-<aside class="callout">
-    <hr/>
-    <h4 class="notes">Read Follow-Up<a href="http://www.theatlantic.com/notes/"> </a></h4>
-    <ul>
-        <li><a href="[NOTE URL]">[NOTE TITLE]</a></li>
-        <li><a href="[NOTE URL]">[NOTE TITLE]</a></li>
-    </ul>
-    <hr/>
-</aside>
+<aside class="callout notes">
+<hr />
+<h4>Read Follow-Up <a href="http://www.theatlantic.com/notes/">Notes</a></h4>
+<ul>
+    <li><a href="[NOTE URL]">[NOTE TITLE]</a></li>
+    <li><a href="[NOTE URL]">[NOTE TITLE]</a></li>
+</ul>
 
+<hr /></aside>
+</aside>
 <!-- END "Follow-up Notes" -->
 {% endhighlight %}
-![](images/notes.png)
+![](images/notes_screenshot.png)
 
 
 ## More From Partners
