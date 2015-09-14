@@ -375,7 +375,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 ### Notes 
 {% highlight html %}
 <!-- Read "Follow-up Notes" -->
-<aside class="callout notes">
+<aside class="callout callout-notes">
 <hr />
 <h4>Read Follow-Up <a href="http://www.theatlantic.com/notes/">Notes</a></h4>
 <ul>
