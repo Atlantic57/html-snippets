@@ -250,21 +250,23 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 
 {% highlight html %}
 <!-- START "MORE ON" LIST BOX v. 3 -->
+<!-- START "MORE ON" LIST BOX v. 3 -->
 <aside class="callout">
-    <hr/>
+    <hr />
     <h4>More on Coffee</h4>
-    <div>
-        <a href="[URL]">
-            <img width="242" src="[THUMBNAIL URL]" />
-        </a>
-    </div>
-    <ul>
-        <li><a href="[URL]">[TITLE]</a></li>
-        <li><a href="[URL]">[TITLE]</a></li>
-        <li><a href="[URL]">[TITLE]</a></li>
-    </ul>
-    <hr/>
-</aside>
+
+<div>
+<figure href="[URL]"><img alt="" src="" width="242" /></figure>
+</div>
+
+<ul>
+    <li><a href="[URL]">Consume More Beans</a></li>
+    <li><a href="[URL]">Coffee for Children and Tots</a></li>
+    <li><a href="[URL]">Trading Beans for Freedom</a></li>
+</ul>
+
+<hr /></aside>
+<!-- END "MORE ON" LIST BOX v. 3 -->
 <!-- END "MORE ON" LIST BOX v. 3 -->
 {% endhighlight %}
 ![](https://raw.github.com/theatlantic/html-snippets/master/img//more_on.png)
@@ -345,30 +347,20 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 {% highlight html %}
 <!-- START MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
 <aside class="callout">
-  <hr/>
-  <h4>More on [SUBJECT]</h4>
-  <ul class="with-thumbs">
-    <li>
-      <a href="[ARTICLE URL]">
-        <img width="90" src="[THUMBNAIL URL]"/>
-        [ARTICLE TITLE]
-      </a>
-    </li>
-    <li>
-      <a href="[ARTICLE URL]">
-        <img width="90" src="[THUMBNAIL URL]"/>
-        [ARTICLE TITLE]
-      </a>
-    </li>
-    <li>
-      <a href="[ARTICLE URL]">
-        <img width="90" src="[THUMBNAIL URL]"/>
-        [ARTICLE TITLE]
-      </a>
-    </li>
-  </ul>
-  <hr/>
-</aside>
+<hr />
+<h4>More on Coffee</h4>
+
+<div>
+<figure href="[URL]"><img alt="" src="" width="242" /></figure>
+</div>
+
+<ul>
+    <li><a href="[URL]">[TITLE]</a></li>
+    <li><a href="[URL]">[TITLE]</a></li>
+    <li><a href="[URL]">[TITLE]</a></li>
+</ul>
+
+<hr /></aside>
 <!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
 {% endhighlight %}
 
