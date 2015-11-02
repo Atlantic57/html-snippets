@@ -483,7 +483,7 @@ empty image to upload the logo into cropduster.
 <hr /></aside>
 <!-- END "MORE FROM" Custom -->
 {% endhighlight %}
-
+![](https://raw.github.com/theatlantic/html-snippets/master/img/partnerbox.png)
 
 ## Video
 
