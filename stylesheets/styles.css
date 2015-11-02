@@ -279,7 +279,8 @@ Next-sibling selector anchored on h2/h3 id
 #study-of-the-day + .highlight + p,
 #more-emporium + .highlight + p,
 #related-video + .highlight + p,
-#see-also + .highlight + p {
+#see-also + .highlight + p, 
+#more-from-anyone-else-custom + .highlight + p {
     float: left;
     margin-right: 30px;
 }
@@ -291,7 +292,8 @@ Next-sibling selector anchored on h2/h3 id
 #more-emporium + .highlight + p + *,
 #related-video + .highlight + p + *,
 #more-from-quartz + .highlight + p + *,
-#see-also + .highlight + p + * {
+#see-also + .highlight + p + *,
+#more-from-anyone-else-custom + .highlight + p + * {
     clear: both;
 }
 
