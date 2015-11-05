@@ -253,7 +253,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- START "MORE ON" LIST BOX v. 3 -->
 <aside class="callout">
     <hr />
-    <h4>More on Coffee</h4>
+    <h4>Related Stories</h4>
 
 <div>
 <figure href="[URL]"><img alt="" src="" width="242" /></figure>
