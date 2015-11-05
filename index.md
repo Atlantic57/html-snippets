@@ -468,7 +468,7 @@ empty image to upload the logo into cropduster.
 <!-- START "MORE FROM" Custom -->
 <aside class="partner-box custom">
 <hr />
-<h4>More From</h4>
+<h4>More From Our Partners</h4>
 
 <figure><a href="http://[example_site.com]">
     <img alt="[Site's Name]" src="" width="150" />
