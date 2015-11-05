@@ -466,7 +466,7 @@ empty image to upload the logo into cropduster.
 
 {% highlight html %}
 <!-- START "MORE FROM" Custom -->
-<aside class="partner-box custom">
+<aside class="partner-box">
 <hr />
 <h4>More From Our Partners</h4>
 
