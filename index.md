@@ -260,16 +260,16 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 </div>
 
 <ul>
-    <li><a href="[URL]">Consume More Beans</a></li>
-    <li><a href="[URL]">Coffee for Children and Tots</a></li>
-    <li><a href="[URL]">Trading Beans for Freedom</a></li>
+    <li><a href="[URL]">Corgis Are Great</a></li>
+    <li><a href="[URL]">Corgis Are Cool</a></li>
+    <li><a href="[URL]">We All Love Corgis</a></li>
 </ul>
 
 <hr /></aside>
 <!-- END "MORE ON" LIST BOX v. 3 -->
 <!-- END "MORE ON" LIST BOX v. 3 -->
 {% endhighlight %}
-![](https://raw.github.com/theatlantic/html-snippets/master/img//more_on.png)
+![](https://raw.github.com/theatlantic/html-snippets/master/img/new_related_stories.png)
 
 
 ### Study of the Day
@@ -338,7 +338,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
 {% endhighlight %}
 
-![](https://raw.github.com/theatlantic/html-snippets/master/img/latest_video.png)
+![](https://raw.github.com/theatlantic/html-snippets/master/img/new_related_image.png)
 
 <br>
 
