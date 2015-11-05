@@ -338,7 +338,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END "RELATED VIDEO" SINGLE STORY BOX v. 1 -->
 {% endhighlight %}
 
-![](https://raw.github.com/theatlantic/html-snippets/master/img/updated_video.png)
+![](https://raw.github.com/theatlantic/html-snippets/master/img/latest_video.png)
 
 <br>
 
