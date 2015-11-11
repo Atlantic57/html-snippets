@@ -384,7 +384,7 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 
 ## More From Partners
 
-These are thin bars that go on the right size of NJ/Quartz stories.
+These are modules that appear on the left-hand side of stories reposted from partner sites.
 
 ### More from Quartz
 {% highlight html %}
@@ -401,7 +401,7 @@ These are thin bars that go on the right size of NJ/Quartz stories.
     </aside>
 <!-- END "MORE FROM" QZ -->
 {% endhighlight %}
-![](images/more-from-qz.png)
+![](images/more-quartz.png)
 
 ### More from GovExec
 {% highlight html %}
@@ -483,7 +483,7 @@ empty image to upload the logo into cropduster.
 <hr /></aside>
 <!-- END "MORE FROM" Custom -->
 {% endhighlight %}
-![](https://raw.github.com/theatlantic/html-snippets/master/img/partnerbox.png)
+![](images/partners.png)
 
 ## Video
 
