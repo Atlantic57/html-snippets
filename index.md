@@ -388,6 +388,8 @@ These are modules that appear on the left-hand side of stories reposted from par
 
 ### More from Our Partner Sites (Custom)
 
+Copy the code below, edit the link, and place the link to your image inside src = ""
+
 {% highlight html %}
 <!-- START "MORE FROM" Custom -->
 <aside class="partner-box">
