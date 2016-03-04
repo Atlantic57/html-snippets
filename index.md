@@ -291,7 +291,8 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 
 <hr /></aside>
 {% endhighlight %}
-![](https://raw.github.com/theatlantic/html-snippets/master/img/hoc.png)
+
+![](https://raw.github.com/theatlantic/html-snippets/master/img/house-of-cards.png)
 
 <br>
 
