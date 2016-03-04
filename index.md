@@ -271,6 +271,25 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 {% endhighlight %}
 ![](https://raw.github.com/theatlantic/html-snippets/master/img/new_related_stories.png)
 
+### More House of Cards
+{% highlight html %}
+<aside class="callout">
+<hr />
+<h4>More House of Cards</h4>
+
+<figure><a href="http://[example_site.com]">
+    <img alt="[Site's Name]" src="" width="150" />
+</a></figure>
+
+<ul>
+    <li><a href="[Ep.1: Chapter 39]">[Ep.1: Chapter 39]</a></li>
+    <li><a href="[Ep.2: Chapter 40]">[Ep.2: Chapter 40]</a></li>
+    <li><a href="[Ep.3: Chapter 41]">[Ep.3: Chapter 41]</a></li>
+</ul>
+
+<hr /></aside>
+{% endhighlight %}
+
 
 ### Study of the Day
 
@@ -364,7 +383,8 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 <!-- END MULTI-THUMB "MORE ON" WITH IMAGES v. 3 -->
 {% endhighlight %}
 
-### Notes 
+
+### Notes
 {% highlight html %}
 <!-- Read "Follow-up Notes" -->
 <aside class="callout callout-notes">
@@ -407,6 +427,7 @@ Copy the code below, edit the link, and place the link to your image inside src 
 </ul>
 
 <hr /></aside>
+
 <!-- END "MORE FROM" Custom -->
 {% endhighlight %}
 ![](images/partners.png)
