@@ -284,9 +284,9 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 </a></figure>
 
 <ul>
-    <li><a href="[Ep.1: Chapter 39]">[Ep.1: Chapter 39]</a></li>
-    <li><a href="[Ep.2: Chapter 40]">[Ep.2: Chapter 40]</a></li>
-    <li><a href="[Ep.3: Chapter 41]">[Ep.3: Chapter 41]</a></li>
+    <li><a href="http://example_site.com">Ep.1: Chapter 39</a></li>
+    <li><a href="http://example_site.com">Ep.2: Chapter 40</a></li>
+    <li><a href="http://example_site.com">Ep.3: Chapter 41</a></li>
 </ul>
 
 <hr /></aside>
