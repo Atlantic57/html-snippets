@@ -366,6 +366,22 @@ The words "Go to section 1" will be a link, and when the user clicks it, the bro
 
 <br>
 
+### Aside Image
+{% highlight html %}
+<!-- Aside Image -->
+<aside class="callout aside-image">
+    <a class="aside-image-link" href="[ARTICLE URL]">
+        <img width="242" src="[THUMBNAIL URL]" />
+   </a>
+    <p>
+        <a href="[ARTICLE URL]">[ARTICLE TITLE]</a>
+    </p>
+</aside>
+<!-- END of Aside Image -->
+{% endhighlight %}
+
+<br>
+
 ### Multiple "More on" list with thumbnails
 
 {% highlight html %}
