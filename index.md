@@ -4,11 +4,6 @@ layout: main
 
 # WYSWIYG Shortcode Library
 
-## Contents
-
-* TOC
-  {:toc}
-
 ## Shortcodes
 
 ### Eyebrow
