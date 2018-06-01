@@ -14,13 +14,17 @@ layout: main
 {% endraw %}
 ```
 
-### Lead
+![](https://raw.githubusercontent.com/Atlantic57/html-snippets/gh-pages/images/eyebrow.png)
+
+### Lede
 
 ```html
 {% raw %}
 {{% lead %}} [LEDE_TEXT] {{% /lead %}}
 {% endraw %}
 ```
+
+![](https://raw.githubusercontent.com/Atlantic57/html-snippets/gh-pages/images/lead.png)
 
 ### Pullquote
 
@@ -34,6 +38,16 @@ Add `attribution=[ATTRIBUTION_TEXT]` if you'd like to attribute the quote to som
 {% endraw %}
 ```
 
+![](https://raw.githubusercontent.com/Atlantic57/html-snippets/gh-pages/images/pullquote.png)
+
+### Blockquote
+
+```
+> [BLOCKQUOTE_TEXT]
+```
+
+![](https://raw.githubusercontent.com/Atlantic57/html-snippets/gh-pages/images/blockquote.png)
+
 ### Full-width Image
 
 ```html
@@ -41,3 +55,5 @@ Add `attribution=[ATTRIBUTION_TEXT]` if you'd like to attribute the quote to som
 {{< image-full alt="[IMAGE_ALT_TEXT]" url="[IMAGE_URL]" >}}
 {% endraw %}
 ```
+
+![](https://raw.githubusercontent.com/Atlantic57/html-snippets/gh-pages/images/image.png)
