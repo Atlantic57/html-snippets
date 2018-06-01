@@ -1,4 +1,4 @@
-pygments: true
 markdown: kramdown
-plugins:
-  - jekyll-toc
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge 
